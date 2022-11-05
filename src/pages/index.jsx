@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { getPurchases } from "../services/purchasesServices";
 import useAuthHandler from "../hooks/useAuthHandler";
 import { PurchaseOverviewList } from "../components";
+import { Button } from "@nextui-org/react";
 
 export default function Home(props) {
   const router = useRouter();
@@ -15,12 +16,10 @@ export default function Home(props) {
   };
 
   return (
-    <div>
-      <main>
-        <button onClick={handleLogout}>logout</button>
-        <PurchaseOverviewList list={props.purchases}></PurchaseOverviewList>
-      </main>
-    </div>
+    <main>
+      <Button onClick={handleLogout}>Logout</Button>
+      <PurchaseOverviewList list={props.purchases}></PurchaseOverviewList>
+    </main>
   );
 }
 

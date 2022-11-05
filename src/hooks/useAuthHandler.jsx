@@ -3,7 +3,6 @@ import React from "react";
 const useAuthHandler = () => {
   const [isSignedIn, setIsSignedIn] = React.useState(false);
 
-
   const toggleIsSignIn = () => {
     setIsSignedIn((prevState) => !prevState);
   };

@@ -7,15 +7,34 @@
     "server": "json-server --watch db.json --port=3002",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx}\"",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.@(js|jsx)": [
+      "npm lint",
+      "npm format"
+    ]
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.10",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
     "json-server": "^0.17.1",
+    "lint-staged": "^13.0.3",
     "next": "13.0.2",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.56.0"
   },
   "devDependencies": {
     "@types/node": "18.11.9",

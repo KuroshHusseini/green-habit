@@ -46,30 +46,36 @@ const SignInPage = ({ customers }) => {
   };
 
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-      }}
-    >
-      <input
-        required
-        type="email"
-        value={inputs.email}
-        onChange={(e) => handleEmailChange(e.target.value)}
-      />
-      <input
-        required
-        minLength={8}
-        type="password"
-        value={inputs.password}
-        onChange={(e) => handlePasswordChange(e.target.value)}
-      />
-      <button onClick={handleSubmit}>Submit</button>
-    </div>
+    <main>
+      <div>
+        <div>
+          <div>
+            <input
+              id="userEmail"
+              placeholder="E-mail"
+              required
+              type="email"
+              value={inputs.email}
+              onChange={(e) => handleEmailChange(e.target.value)}
+            />
+            <label htmlFor="userEmail">E-mail</label>
+          </div>
+          <div>
+            <input
+              id="userPass"
+              placeholder="Password"
+              required
+              minLength={8}
+              type="password"
+              value={inputs.password}
+              onChange={(e) => handlePasswordChange(e.target.value)}
+            />
+            <label htmlFor="userPass">Password</label>
+          </div>
+          <button onClick={handleSubmit}>Login</button>
+        </div>
+      </div>
+    </main>
   );
 };
 
