@@ -7,7 +7,7 @@ import { Container } from "@nextui-org/react";
 import "swiper/css";
 export default function Home(props) {
   return (
-    <Container gap={1} justify="center" alignItems="center">
+    <Container css={{p:"$0"}} justify="center" alignItems="center">
       <Head>
         <title>Green Habit</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
