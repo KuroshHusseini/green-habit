@@ -1,16 +1,14 @@
 import React, { useCallback, useState } from "react";
-import axios from "axios";
+import { useRouter } from "next/router";
+import { getCustomers } from "../../services/customersServices";
+import useAuthHandler from "../../hooks/useAuthHandler";
 
-async function createUser({ email, password }) {
-  const res = await axios.post("api/auth/sign-up", { email, password });
-  console.log("🚀 ~ file: index.jsx ~ line 6 ~ createUser ~ res", res)
-}
-
-const SignUpPage = () => {
-  const [isSignedIn, setIsSignedIn] = useState(false);
+const SignInPage = ({ customers }) => {
+  const router = useRouter();
+  const { toggleIsSignIn } = useAuthHandler();
   const [inputs, setInput] = useState({
-    email: "b@b.com",
-    password: "12345678",
+    email: "lohalligan0@furl.net",
+    password: "134",
   });
 
   const handleEmailChange = useCallback((inputValue) => {
@@ -35,20 +33,16 @@ const SignUpPage = () => {
   }, []);
 
   const handleSubmit = async () => {
-    if (isSignedIn) {
-      return;
-    } else {
-      try {
-        const res = await createUser(inputs);
-        console.log("🚀 ~ file: index.jsx ~ line 54 ~ handleSubmit ~ res", res);
-      } catch (error) {
-        console.log(
-          "🚀 ~ file: index.jsx ~ line 56 ~ handleSubmit ~ error",
-          error.message
-        );
-      }
+    const checkUserExists = customers.find(
+      (customer) =>
+        customer.email === inputs.email && customer.password === inputs.password
+    );
+
+    if (checkUserExists) {
+      toggleIsSignIn();
+      router.replace("/");
     }
-    // clearInputs();
+    clearInputs();
   };
 
   return (
@@ -79,4 +73,11 @@ const SignUpPage = () => {
   );
 };
 
-export default SignUpPage;
+export async function getServerSideProps() {
+  const customers = await getCustomers();
+  return {
+    props: { customers },
+  };
+}
+
+export default SignInPage;

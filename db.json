@@ -1,7 +1,7 @@
 {
   "purchases": [
     {
-      "id": 1,
+      "id": "64dd985a9063ffaa",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€2",
       "company": "Bernhard LLC",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "64dd985a9063ffaadasDs",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€32",
       "company": "Ferry, Jast and Kuhn",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "edfesdfrasfwes",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€3",
       "company": "Ferry, Jast and Kuhn",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "sadsADFEAWSFASFD",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€54",
       "company": "Ferry, Jast and Kuhn",
@@ -111,6 +111,30 @@
           "carbon": 0.42
         }
       ]
+    }
+  ],
+
+  "customers": [
+    {
+      "id": "44031ac5-9cea-4ec6-8102-ae96f08798ac",
+      "first_name": "Linnea",
+      "last_name": "O'Halligan",
+      "email": "lohalligan0@furl.net",
+      "password": "134"
+    },
+    {
+      "id": "6aeb31ec-81b1-430e-bfbe-13c140feda0c",
+      "first_name": "Laureen",
+      "last_name": "Rivallant",
+      "email": "lrivallant1@ocn.ne.jp",
+      "password": "1234"
+    },
+    {
+      "id": "1bee39b9-0d63-4b1d-b626-924f762aa817",
+      "first_name": "Wilhelmine",
+      "last_name": "Azema",
+      "email": "wazema2@barnesandnoble.com",
+      "password": "124"
     }
   ]
 }
