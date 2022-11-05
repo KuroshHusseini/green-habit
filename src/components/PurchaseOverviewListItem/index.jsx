@@ -33,7 +33,7 @@ export const PurchaseOverviewListItem = (props) => {
           <Col>
             <Row>
               <Col>
-                <Text color="#fff" size={12}>
+                <Text color="#fff" size={14}>
                   {props.company}
                 </Text>
                 <Text color="#1CA323" size={12} b>
