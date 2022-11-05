@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 
 import { getPurchases } from "../services/purchasesServices";
 import useAuthHandler from "../hooks/useAuthHandler";
+import { PurchaseOverviewList } from "../components";
 
 export default function Home(props) {
   const router = useRouter();
@@ -17,13 +18,7 @@ export default function Home(props) {
     <div>
       <main>
         <button onClick={handleLogout}>logout</button>
-        <ul>
-          {props.purchases.map((purchase) => (
-            <Link key={purchase.id} href={`/${purchase.id}`}>
-              <li>{purchase.company}</li>
-            </Link>
-          ))}
-        </ul>
+        <PurchaseOverviewList list={props.purchases}></PurchaseOverviewList>
       </main>
     </div>
   );
