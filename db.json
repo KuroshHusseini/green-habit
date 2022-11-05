@@ -5,6 +5,7 @@
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€2",
       "company": "Bernhard LLC",
+      "totalCarbon": 2.09,
       "products": [
         {
           "id": 1,
@@ -33,6 +34,7 @@
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€32",
       "company": "Ferry, Jast and Kuhn",
+      "totalCarbon": 1.09,
       "products": [
         {
           "id": 1,
@@ -61,6 +63,7 @@
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€3",
       "company": "Ferry, Jast and Kuhn",
+      "totalCarbon": 2.09,
       "products": [
         {
           "id": 1,
@@ -89,6 +92,7 @@
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€54",
       "company": "Ferry, Jast and Kuhn",
+      "totalCarbon": 2.09,
       "products": [
         {
           "id": 1,

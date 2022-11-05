@@ -5,6 +5,7 @@ import { getPurchases } from "../services/purchasesServices";
 import useAuthHandler from "../hooks/useAuthHandler";
 import { PurchaseOverviewList } from "../components";
 import { Button } from "@nextui-org/react";
+import { ProgressChart } from "../components/Chart";
 
 export default function Home(props) {
   const router = useRouter();
