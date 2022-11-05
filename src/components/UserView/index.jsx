@@ -1,4 +1,3 @@
-
 export const UserView = () => {
   return (
     <div>

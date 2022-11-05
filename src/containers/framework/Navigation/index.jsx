@@ -3,8 +3,9 @@ import { Navbar, Button, Link, Text } from "@nextui-org/react";
 export const Navigation = () => {
   return (
     <Navbar isBordered variant="floating">
-      <Navbar.Brand>
-        <Text b color="inherit" hideIn="xs">
+      <Navbar.Brand as="a"
+        href={`/`}>
+        <Text b color="#000">
           Green Habit
         </Text>
       </Navbar.Brand>
