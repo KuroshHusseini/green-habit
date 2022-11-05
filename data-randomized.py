@@ -56,7 +56,7 @@ products = [
     'Cap'
 ]
 
-for i in range(50):
+for i in range(30):
     purchase = {
         "id": "".join(random.choice(string.ascii_letters) for i in range(20)),
         "userId": "64dd985a9063ffaaed8893eee5450db5",
@@ -68,7 +68,7 @@ for i in range(50):
     }
     for j in range(random.randrange(1, 20)):
         amount = random.randrange(0, 50)
-        carbon = round(random.randrange(1, 100 - i - 5) / 100, 2)
+        carbon = round(random.randrange(1, 100 - i * 2) / 100, 2)
         purchase["products"] += [{
             "product": random.choice(products),
             "amount": amount,

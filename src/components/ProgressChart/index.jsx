@@ -7,8 +7,9 @@ import {
   PointElement,
   LineElement,
   Title,
-  Tooltip,
+  Filler
 } from "chart.js";
+import annotationPlugin from 'chartjs-plugin-annotation';
 import { Line } from "react-chartjs-2";
 
 ChartJS.register(
@@ -17,7 +18,8 @@ ChartJS.register(
   PointElement,
   LineElement,
   Title,
-  Tooltip
+  Filler,
+  annotationPlugin
 );
 
 export const options = {
@@ -30,6 +32,23 @@ export const options = {
       to: 0.3,
       loop: true,
     },
+  },
+  plugins: {
+    title: {
+      display: true,
+      text: 'CO2 produced per purchase'
+    },
+    annotation: {
+      annotations: {
+        line1: {
+          type: 'line',
+          yMin: 0.35,
+          yMax: 0.35,
+          borderColor: 'rgb(255, 99, 132)',
+          borderWidth: 2,
+        }
+      }
+    }
   },
 };
 
@@ -50,13 +69,18 @@ export const ProgressChart = ({ datapoints: dataPoints }) => {
           return i.averageCarbon;
         }),
         borderColor: "rgb(28, 163, 35)",
-        backgroundColor: "rgb(28, 163, 35, 0.5)",
+        backgroundColor: "rgba(28, 163, 35, 0.5)",
+        fill: {
+          target: { value: 0.35 },
+          below: "rgba(28, 163, 35, 0.5)",
+          above: 'rgba(255, 99, 132, 0.5)'
+        }
       },
     ],
   };
 
   return (
-    <Card css={{ mw: "100%", padding: "10px", margin: "20px 0"}}>
+    <Card css={{ mw: "100%", padding: "10px", margin: "20px 0" }}>
       <Card.Body>
         <Line options={options} data={data} />
       </Card.Body>
