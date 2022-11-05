@@ -2,7 +2,7 @@ import Head from "next/head";
 import { getPurchases } from "../services/purchasesServices";
 import { PurchaseOverviewList, ProgressChart, Carousel } from "../components";
 import { Container } from "@nextui-org/react";
-import 'swiper/css';
+import "swiper/css";
 export default function Home(props) {
   return (
     <Container gap={1} justify="center" alignItems="center">
@@ -12,8 +12,8 @@ export default function Home(props) {
       </Head>
       <ProgressChart datapoints={props.purchases} />
       <PurchaseOverviewList title="Suggestions" list={props.purchases} />
-      <PurchaseOverviewList title="Rewards" list={props.purchases} />
-      <Carousel/>
+      <PurchaseOverviewList title="Rewards" list={undefined} />
+      <Carousel />
     </Container>
   );
 }

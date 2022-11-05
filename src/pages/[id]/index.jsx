@@ -7,7 +7,7 @@ import {
 
 const PurchaseDetailPage = ({ purchase }) => {
   return (
-    <Container>
+    <Container gap={5}>
       <Head>
         <title>Green Habit</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

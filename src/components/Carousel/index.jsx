@@ -1,7 +1,7 @@
 import { PurchaseOverviewListItem } from "../";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Text } from "@nextui-org/react";
 export const Carousel = ({ list, imageSrc }) => {
-  if (!list) return null;
 
   return (
     <Swiper
@@ -28,10 +28,10 @@ export const Carousel = ({ list, imageSrc }) => {
         768: {
           width: 1024,
           slidesPerView: 3,
-        }
+        },
       }}
     >
-      {list.map((item) => (
+      {list?.map((item) => (
         <SwiperSlide direction="row" key={item.id}>
           <PurchaseOverviewListItem
             id={item.id}
@@ -39,6 +39,7 @@ export const Carousel = ({ list, imageSrc }) => {
             company={item.company}
             amount={item.amount}
             products={item.products}
+            averageCarbon={item.averageCarbon}
           />
         </SwiperSlide>
       ))}
