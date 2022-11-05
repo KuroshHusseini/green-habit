@@ -16,7 +16,6 @@ export default function Home(props) {
       <PurchaseOverviewList title="Suggestions" list={props.suggestions} />
       <PurchaseOverviewList title="Rewards" list={props.rewards} />
       <PurchaseOverviewList title="Purchases" list={props.purchases} />
-
     </Container>
   );
 }

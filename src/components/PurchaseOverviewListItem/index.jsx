@@ -34,10 +34,10 @@ export const PurchaseOverviewListItem = ({ ...rest }) => {
             <Row>
               <Col>
                 <Text color="#fff" size={14}>
-                  {rest.header}
+                  {rest.header || rest.company}
                 </Text>
                 <Text color="#1CA323" size={12} b>
-                  {rest.summer}
+                  {rest.summary}
                 </Text>
               </Col>
             </Row>
