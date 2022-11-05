@@ -859,19 +859,19 @@
   "rewards": [
     {
       "header": "50% Discount",
-      "src": "/public/scary_mannequin_discount.png",
+      "src": "/scary_mannequin_discount.png",
       "summary": "50% Discount from Lidl",
       "description": "Get 50% off select Certified Circular Economy products at Lidl."
     },
     {
       "header": "15€ Gift Card",
-      "src": "/public/gift.png",
+      "src": "/gift.png",
       "summary": "Celebrating Sustainable Technology",
       "description": "Adidas is launching a new line of street wear made from 100% recycled material."
     },
     {
       "header": "50% Discount",
-      "src": "/public/50perc.png",
+      "src": "/50perc.png",
       "summary": "50% Discount from HSL",
       "description": "Travel sustainably with this single trip discount!"
     }
@@ -885,7 +885,7 @@
     },
     {
       "header": "sugg 2",
-      "src": "/public/1.png",
+      "src": "/1.png",
       "summary": "sugg 2",
       "description": "sugg 2"
     }

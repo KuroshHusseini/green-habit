@@ -14,7 +14,7 @@ export const PurchaseOverviewListItem = ({
       isPressable
       isBlurred
       as="a"
-      href={`/${props.id}`}
+      href={`/${id}`}
       css={{ w: "300px", h: "300px" }}
     >
       <Card.Body css={{ p: 0 }}>
@@ -41,10 +41,10 @@ export const PurchaseOverviewListItem = ({
             <Row>
               <Col>
                 <Text color="#fff" size={14}>
-                  {props.company}
+                  {company}
                 </Text>
                 <Text color="#1CA323" size={12} b>
-                  {props.averageCarbon}gr CO
+                  {/*averageCarbon*/ "this is a placeholder yay kurosh "}gr CO
                 </Text>
               </Col>
             </Row>
