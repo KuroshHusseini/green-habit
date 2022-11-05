@@ -858,18 +858,21 @@
   ],
   "rewards": [
     {
+      "id": "B2f9NvAK36bQdWuAd2Vk",
       "header": "50% Discount",
       "src": "/scary_mannequin_discount.png",
       "summary": "50% Discount from Lidl",
       "description": "Get 50% off select Certified Circular Economy products at Lidl."
     },
     {
+      "id": "B2f9NvAK36bQdWergAd2Vk",
       "header": "15€ Gift Card",
       "src": "/gift.png",
       "summary": "Celebrating Sustainable Technology",
       "description": "Adidas is launching a new line of street wear made from 100% recycled material."
     },
     {
+      "id": "B256NAK36bQdWuAd2Vk",
       "header": "50% Discount",
       "src": "/50perc.png",
       "summary": "50% Discount from HSL",
@@ -878,12 +881,14 @@
   ],
   "suggestions": [
     {
+      "id": "hhf9NvAK36bQdWuAd2Vk",
       "header": "sugg 1",
       "src": "/2.png",
       "summary": "ugg 1",
       "description": "ug 1"
     },
     {
+      "id": "B2f9NvAK36bQdWuAuuVk",
       "header": "sugg 2",
       "src": "/1.png",
       "summary": "sugg 2",

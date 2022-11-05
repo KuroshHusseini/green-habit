@@ -7,12 +7,10 @@ export const PurchaseOverviewListItem = ({
   products,
   src,
 }) => {
-  console.log(src);
   return (
     <Card
       isHoverable
       isPressable
-      isBlurred
       as="a"
       href={`/${id}`}
       css={{ w: "300px", h: "300px" }}

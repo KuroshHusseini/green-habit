@@ -22,7 +22,7 @@ const getCarbonColor = (carbon) => {
 
 const PurchaseDetailPage = ({ purchase }) => {
   return (
-    <Container gap={5}>
+    <Container>
       <Head>
         <title>Green Habit</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
