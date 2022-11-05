@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/api/auth/sign-up/index.js"  ],
+, "src/pages/api/auth/sign-up/index.js", "src/components/Carousel/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]

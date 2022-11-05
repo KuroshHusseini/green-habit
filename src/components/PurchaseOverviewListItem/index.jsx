@@ -1,5 +1,4 @@
-import { Card, Col, Text, Row, Button } from "@nextui-org/react";
-import React from "react";
+import { Card, Col, Text, Row } from "@nextui-org/react";
 
 export const PurchaseOverviewListItem = ({
   id,
@@ -10,7 +9,14 @@ export const PurchaseOverviewListItem = ({
 }) => {
   console.log(src);
   return (
-    <Card>
+    <Card
+      isHoverable
+      isPressable
+      isBlurred
+      as="a"
+      href={`/${props.id}`}
+      css={{ w: "300px", h: "300px" }}
+    >
       <Card.Body css={{ p: 0 }}>
         <Card.Image
           src={src}
@@ -34,11 +40,11 @@ export const PurchaseOverviewListItem = ({
           <Col>
             <Row>
               <Col>
-                <Text color="#fff" size={12}>
-                  {company}
+                <Text color="#fff" size={14}>
+                  {props.company}
                 </Text>
                 <Text color="#1CA323" size={12} b>
-                  {amount}
+                  {props.averageCarbon}gr CO
                 </Text>
               </Col>
             </Row>

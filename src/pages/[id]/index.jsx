@@ -1,6 +1,5 @@
 import { Container } from "@nextui-org/react";
 import Head from "next/head";
-import React from "react";
 import {
   getPurchases,
   getSinglePurchase,
@@ -8,7 +7,7 @@ import {
 
 const PurchaseDetailPage = ({ purchase }) => {
   return (
-    <Container>
+    <Container gap={5}>
       <Head>
         <title>Green Habit</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
