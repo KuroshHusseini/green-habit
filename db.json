@@ -855,5 +855,25 @@
       "email": "wazema2@barnesandnoble.com",
       "password": "124"
     }
+  ],
+  "rewards": [
+    {
+      "header": "10% Discount",
+      "src": "https://loremflickr.com/640/360",
+      "summary": "10% Discount from Lidl",
+      "description": "Get 10% off from groceries at Lidl."
+    },
+    {
+      "header": "10€ Voucher",
+      "src": "https://loremflickr.com/640/360",
+      "summary": "10€ Kultuuriseteli",
+      "description": "Enjoy culture with this 10€ Voucher."
+    },
+    {
+      "header": "40% Discount",
+      "src": "https://loremflickr.com/640/360",
+      "summary": "40% Discount from HSL",
+      "description": "Travel sustainably with this single trip discount!"
+    }
   ]
 }
