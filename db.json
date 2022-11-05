@@ -1,0 +1,112 @@
+{
+  "purchases": [
+    {
+      "id": 1,
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€2",
+      "products": [
+        {
+          "id": 1,
+          "product": "Goulash Seasoning",
+          "carbon": 0.58
+        },
+        {
+          "id": 2,
+          "product": "Eggplant - Baby",
+          "carbon": 0.75
+        },
+        {
+          "id": 3,
+          "product": "Molasses - Fancy",
+          "carbon": 0.34
+        },
+        {
+          "id": 4,
+          "product": "Onions - Green",
+          "carbon": 0.42
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€32",
+      "products": [
+        {
+          "id": 1,
+          "product": "Goulash Seasoning",
+          "carbon": 0.58
+        },
+        {
+          "id": 2,
+          "product": "Eggplant - Baby",
+          "carbon": 0.75
+        },
+        {
+          "id": 3,
+          "product": "Molasses - Fancy",
+          "carbon": 0.34
+        },
+        {
+          "id": 4,
+          "product": "Onions - Green",
+          "carbon": 0.42
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€3",
+      "products": [
+        {
+          "id": 1,
+          "product": "Goulash Seasoning",
+          "carbon": 0.58
+        },
+        {
+          "id": 2,
+          "product": "Eggplant - Baby",
+          "carbon": 0.75
+        },
+        {
+          "id": 3,
+          "product": "Molasses - Fancy",
+          "carbon": 0.34
+        },
+        {
+          "id": 4,
+          "product": "Onions - Green",
+          "carbon": 0.42
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€54",
+      "products": [
+        {
+          "id": 1,
+          "product": "Goulash Seasoning",
+          "carbon": 0.58
+        },
+        {
+          "id": 2,
+          "product": "Eggplant - Baby",
+          "carbon": 0.75
+        },
+        {
+          "id": 3,
+          "product": "Molasses - Fancy",
+          "carbon": 0.34
+        },
+        {
+          "id": 4,
+          "product": "Onions - Green",
+          "carbon": 0.42
+        }
+      ]
+    }
+  ]
+}
