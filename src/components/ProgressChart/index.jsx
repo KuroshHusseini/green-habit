@@ -7,9 +7,9 @@ import {
   PointElement,
   LineElement,
   Title,
-  Filler
+  Filler,
 } from "chart.js";
-import annotationPlugin from 'chartjs-plugin-annotation';
+import annotationPlugin from "chartjs-plugin-annotation";
 import { Line } from "react-chartjs-2";
 
 ChartJS.register(
@@ -36,19 +36,26 @@ export const options = {
   plugins: {
     title: {
       display: true,
-      text: 'CO2 produced per purchase'
+      text: "CO2 produced per purchase",
     },
     annotation: {
       annotations: {
         line1: {
-          type: 'line',
+          type: "line",
           yMin: 0.35,
           yMax: 0.35,
-          borderColor: 'rgb(255, 99, 132)',
+          borderColor: "rgb(255, 99, 132)",
           borderWidth: 2,
-        }
-      }
-    }
+        },
+      },
+    },
+  },
+  scales: {
+    x: {
+      grid: {
+        display: false,
+      },
+    },
   },
 };
 
@@ -73,8 +80,8 @@ export const ProgressChart = ({ datapoints: dataPoints }) => {
         fill: {
           target: { value: 0.35 },
           below: "rgba(28, 163, 35, 0.5)",
-          above: 'rgba(255, 99, 132, 0.5)'
-        }
+          above: "rgba(255, 99, 132, 0.5)",
+        },
       },
     ],
   };
