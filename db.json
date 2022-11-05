@@ -7,37 +7,93 @@
       "company": "Bernhard LLC",
       "products": [
         {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
+          "product": "Steampan - Lid For Half Size",
+          "carbon": 0.86
         },
         {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
+          "product": "Juice - Lime",
+          "carbon": 0.64
         },
         {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
+          "product": "Milk - Skim",
+          "carbon": 0.31
         },
         {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
+          "product": "Tea - Decaf Lipton",
+          "carbon": 0.22
+        },
+        {
+          "product": "Beef - Ground Lean Fresh",
+          "carbon": 0.51
+        }
+      ]
+    },
+    {
+      "id": "edfesdfrasfwes",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€3",
+      "company": "Ferry, Jast and Kuhn",
+      "products": [
+        {
+          "product": "Mussels - Cultivated",
+          "carbon": 0.08
+        },
+        {
+          "product": "Ecolab Digiclean Mild Fm",
+          "carbon": 0.91
+        },
+        {
+          "product": "Soup - Campbells, Cream Of",
+          "carbon": 0.96
+        },
+        {
+          "product": "Cheese - Valancey",
+          "carbon": 0.25
+        },
+        {
+          "product": "Lambcasing",
+          "carbon": 0.76
+        }
+      ]
+    },
+    {
+      "id": "sadsADFEAWSFASFD",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": "€54",
+      "company": "Ferry, Jast and Kuhn",
+      "products": [
+        {
+          "product": "Cherries - Frozen",
+          "carbon": 0.19
+        },
+        {
+          "product": "Jello - Assorted",
+          "carbon": 0.03
+        },
+        {
+          "product": "Bread - Pita, Mini",
+          "carbon": 0.41
+        },
+        {
+          "product": "Spice - Onion Powder Granulated",
+          "carbon": 0.68
+        },
+        {
+          "product": "V8 - Tropical Blend",
+          "carbon": 0.81
         }
       ]
     },
     {
       "id": "64dd985a9063ffaadasDs",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": "€32",
+      "amount": "€320",
       "company": "Ferry, Jast and Kuhn",
       "products": [
         {
           "id": 1,
           "product": "Goulash Seasoning",
-          "carbon": 0.58
+          "carbon": 0.01
         },
         {
           "id": 2,
@@ -53,62 +109,6 @@
           "id": 4,
           "product": "Onions - Green",
           "carbon": 0.01
-        }
-      ]
-    },
-    {
-      "id": "edfesdfrasfwes",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": "€3",
-      "company": "Ferry, Jast and Kuhn",
-      "products": [
-        {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
-        }
-      ]
-    },
-    {
-      "id": "sadsADFEAWSFASFD",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": "€54",
-      "company": "Ferry, Jast and Kuhn",
-      "products": [
-        {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
         }
       ]
     }
