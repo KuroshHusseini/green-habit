@@ -1,3 +1,5 @@
+import { Container } from "@nextui-org/react";
+import Head from "next/head";
 import React from "react";
 import {
   getPurchases,
@@ -5,7 +7,15 @@ import {
 } from "../../services/purchasesServices";
 
 const PurchaseDetailPage = ({ purchase }) => {
-  return <div>{purchase.company}</div>;
+  return (
+    <Container>
+      <Head>
+        <title>Green Habit</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      {purchase.company}
+    </Container>
+  );
 };
 
 export async function getStaticPaths() {

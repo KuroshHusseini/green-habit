@@ -1,26 +1,16 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-
+import Head from "next/head";
 import { getPurchases } from "../services/purchasesServices";
-import useAuthHandler from "../hooks/useAuthHandler";
 import { PurchaseOverviewList } from "../components";
-import { Button } from "@nextui-org/react";
-import { ProgressChart } from "../components/Chart";
 
 export default function Home(props) {
-  const router = useRouter();
-  const { toggleIsSignIn } = useAuthHandler();
-
-  const handleLogout = () => {
-    toggleIsSignIn();
-    router.replace("/sign-in");
-  };
-
   return (
-    <main>
-      <Button onClick={handleLogout}>Logout</Button>
-      <PurchaseOverviewList list={props.purchases}></PurchaseOverviewList>
-    </main>
+    <>
+      <Head>
+        <title>Green Habit</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <PurchaseOverviewList list={props.purchases} />
+    </>
   );
 }
 
