@@ -1,28 +1,23 @@
 import { Card, Col, Text, Row } from "@nextui-org/react";
 
-export const PurchaseOverviewListItem = ({
-  id,
-  company,
-  amount,
-  products,
-  src,
-}) => {
+export const PurchaseOverviewListItem = ({ ...rest }) => {
   return (
     <Card
       isHoverable
       isPressable
+      variant="bordered"
       as="a"
-      href={`/${id}`}
+      href={`/${rest.id}`}
       css={{ w: "300px", h: "300px" }}
     >
       <Card.Body css={{ p: 0 }}>
-        <Card.Image
-          src={src}
+       { rest.src && <Card.Image
+          src={rest.src}
           objectFit="cover"
           width="100%"
           height="100%"
           alt="Relaxing app background"
-        />
+        />}
       </Card.Body>
       <Card.Footer
         isBlurred
@@ -39,10 +34,10 @@ export const PurchaseOverviewListItem = ({
             <Row>
               <Col>
                 <Text color="#fff" size={14}>
-                  {company}
+                  {rest.header}
                 </Text>
                 <Text color="#1CA323" size={12} b>
-                  {/*averageCarbon*/ "this is a placeholder yay kurosh "}gr CO
+                  {rest.summer}
                 </Text>
               </Col>
             </Row>

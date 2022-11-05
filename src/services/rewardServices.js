@@ -7,6 +7,13 @@ export const getRewards = async () => {
   return res.data;
 };
 export const getSingleReward = async (id) => {
-  const res = await axios.get(`${url}/${id}`);
-  return res.data;
+  try {
+    const res = await axios.get(`${url}/${id}`);
+    return res.data;
+  } catch (error) {
+    console.log(
+      "🚀 ~ file: customersServices.js ~ line 14 ~ getSingleCustomers ~ error",
+      error
+    );
+  }
 };

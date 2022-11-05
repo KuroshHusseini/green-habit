@@ -7,11 +7,13 @@ export const getCustomers = async () => {
   return res.data;
 };
 export const getSingleCustomers = async (id) => {
-  const res = await axios.get(`${url}/${id}`);
-  return res.data;
-};
-
-export const createCustomer = async ({ email, password }) => {
-  const res = await axios.post("api/auth/sign-up", { email, password });
-  console.log("🚀 ~ file: index.jsx ~ line 6 ~ createUser ~ res", res);
+  try {
+    const res = await axios.get(`${url}/${id}`);
+    return res.data;
+  } catch (error) {
+    console.log(
+      "🚀 ~ file: customersServices.js ~ line 14 ~ getSingleCustomers ~ error",
+      error
+    );
+  }
 };

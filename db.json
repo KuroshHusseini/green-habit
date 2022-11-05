@@ -7,6 +7,7 @@
       "company": "Tax-Free",
       "totalCarbon": 8.58,
       "averageCarbon": 0.48,
+      "src": "/1.png",
       "products": [
         { "product": "Coca Cola", "amount": 19, "carbon": 0.21 },
         { "product": "Brownie cookies", "amount": 33, "carbon": 0.59 },
@@ -47,6 +48,7 @@
       "company": "Tax-Free",
       "totalCarbon": 6.41,
       "averageCarbon": 0.49,
+      "src": "/8.png",
       "products": [
         {
           "product": "Flight from Helsinki to Gran Canaria",
@@ -74,6 +76,7 @@
       "company": "Everything and anything shop",
       "totalCarbon": 1.21,
       "averageCarbon": 0.3,
+      "src": "/6.png",
       "products": [
         { "product": "Lime", "amount": 9, "carbon": 0.05 },
         { "product": "MacBook Pro M5", "amount": 38, "carbon": 0.46 },
@@ -92,6 +95,7 @@
       "company": "Tax-Free",
       "totalCarbon": 8.15,
       "averageCarbon": 0.48,
+      "src": "/8.png",
       "products": [
         { "product": "Haribo gummies", "amount": 37, "carbon": 0.78 },
         { "product": "Lime", "amount": 31, "carbon": 0.12 },
@@ -123,6 +127,7 @@
       "company": "Lidl",
       "totalCarbon": 0.37,
       "averageCarbon": 0.37,
+      "src": "/50perc.png",
       "products": [{ "product": "Lime", "amount": 30, "carbon": 0.37 }]
     },
     {
@@ -132,6 +137,7 @@
       "company": "Lidl",
       "totalCarbon": 4.74,
       "averageCarbon": 0.43,
+      "src": "/6.png",
       "products": [
         { "product": "Olive oil", "amount": 21, "carbon": 0.29 },
         { "product": "Coca Cola", "amount": 25, "carbon": 0.6 },
@@ -161,6 +167,7 @@
       "company": "Luigi's",
       "totalCarbon": 0.41,
       "averageCarbon": 0.21,
+      "src": "/7.png",
       "products": [
         { "product": "Lime", "amount": 10, "carbon": 0.23 },
         { "product": "MacBook Pro M5", "amount": 20, "carbon": 0.18 }
@@ -173,6 +180,7 @@
       "company": "Chips Man",
       "totalCarbon": 8.21,
       "averageCarbon": 0.59,
+      "src": "/6.png",
       "products": [
         { "product": "Coca Cola", "amount": 32, "carbon": 0.49 },
         {
@@ -221,6 +229,7 @@
       "company": "Farmer's market",
       "totalCarbon": 4.44,
       "averageCarbon": 0.28,
+      "src": "/8.png",
       "products": [
         { "product": "Olive oil", "amount": 17, "carbon": 0.65 },
         { "product": "Lime", "amount": 30, "carbon": 0.03 },
@@ -255,6 +264,7 @@
       "company": "Farmer's market",
       "totalCarbon": 6.03,
       "averageCarbon": 0.38,
+      "src": "/img.png",
       "products": [
         { "product": "Fried chicken", "amount": 36, "carbon": 0.5 },
         {
@@ -293,6 +303,7 @@
       "company": "Chips Man",
       "totalCarbon": 1.89,
       "averageCarbon": 0.32,
+      "src": "/50perc.png",
       "products": [
         { "product": "Apples", "amount": 44, "carbon": 0.76 },
         {
@@ -839,21 +850,24 @@
       "first_name": "Linnea",
       "last_name": "O'Halligan",
       "email": "lohalligan0@furl.net",
-      "password": "134"
+      "password": "134",
+      "type": "customer"
     },
     {
       "id": "6aeb31ec-81b1-430e-bfbe-13c140feda0c",
       "first_name": "Laureen",
       "last_name": "Rivallant",
       "email": "lrivallant1@ocn.ne.jp",
-      "password": "1234"
+      "password": "1234",
+      "type": "customer"
     },
     {
       "id": "1bee39b9-0d63-4b1d-b626-924f762aa817",
       "first_name": "Wilhelmine",
       "last_name": "Azema",
       "email": "wazema2@barnesandnoble.com",
-      "password": "124"
+      "password": "124",
+      "type": "customer"
     }
   ],
   "rewards": [
@@ -862,37 +876,42 @@
       "header": "50% Discount",
       "src": "/scary_mannequin_discount.png",
       "summary": "50% Discount from Lidl",
-      "description": "Get 50% off select Certified Circular Economy products at Lidl."
+      "description": "Get 50% off select Certified Circular Economy products at Lidl.",
+      "type": "reward"
     },
     {
       "id": "B2f9NvAK36bQdWergAd2Vk",
       "header": "15€ Gift Card",
       "src": "/gift.png",
       "summary": "Celebrating Sustainable Technology",
-      "description": "Adidas is launching a new line of street wear made from 100% recycled material."
+      "description": "Adidas is launching a new line of street wear made from 100% recycled material.",
+      "type": "reward"
     },
     {
       "id": "B256NAK36bQdWuAd2Vk",
       "header": "50% Discount",
       "src": "/50perc.png",
       "summary": "50% Discount from HSL",
-      "description": "Travel sustainably with this single trip discount!"
+      "description": "Travel sustainably with this single trip discount!",
+      "type": "reward"
     }
   ],
   "suggestions": [
     {
       "id": "hhf9NvAK36bQdWuAd2Vk",
-      "header": "sugg 1",
+      "header": "Tofu",
       "src": "/2.png",
-      "summary": "ugg 1",
-      "description": "ug 1"
+      "summary": "Vegan products are safe",
+      "description": "Vegan tofu is good",
+      "type": "suggestion"
     },
     {
       "id": "B2f9NvAK36bQdWuAuuVk",
-      "header": "sugg 2",
+      "header": "Public transportation",
       "src": "/1.png",
-      "summary": "sugg 2",
-      "description": "sugg 2"
+      "summary": "Using less gas is good for the planet",
+      "description": "Public transportation is better for the planet",
+      "type": "suggestion"
     }
   ]
 }

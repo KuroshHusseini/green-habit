@@ -1,13 +1,9 @@
 import { PurchaseOverviewListItem } from "../";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Text } from "@nextui-org/react";
+import "swiper/css";
 export const Carousel = ({ list, imageSrc }) => {
-
   return (
     <Swiper
-      id="main"
-      width="480"
-      navigation
       spaceBetween={5}
       slidesPerView={1}
       breakpoints={{
@@ -31,16 +27,9 @@ export const Carousel = ({ list, imageSrc }) => {
         },
       }}
     >
-      {list?.map((item) => (
-        <SwiperSlide direction="row" key={item.id}>
-          <PurchaseOverviewListItem
-            id={item.id}
-            imageSrc={imageSrc}
-            company={item.company}
-            amount={item.amount}
-            products={item.products}
-            averageCarbon={item.averageCarbon}
-          />
+      {list?.slice(0, 10).map((item) => (
+        <SwiperSlide key={item.id}>
+          <PurchaseOverviewListItem {...item} />
         </SwiperSlide>
       ))}
     </Swiper>
