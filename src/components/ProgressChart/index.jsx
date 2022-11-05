@@ -25,16 +25,18 @@ export const options = {
   animations: {
     tension: {
       duration: 2000,
-      easing: 'easeInOutQuad',
+      easing: "easeInOutQuad",
       from: 0.8,
       to: 0.3,
-      loop: true
-    }
-  }
+      loop: true,
+    },
+  },
 };
 
-export const ProgressChart = ({ datapoints }) => {
-  const labels = datapoints.map((i) => {
+export const ProgressChart = ({ datapoints: dataPoints }) => {
+  if (!dataPoints) return null;
+
+  const labels = dataPoints.map((i) => {
     return i.company;
   });
 
@@ -43,7 +45,7 @@ export const ProgressChart = ({ datapoints }) => {
     datasets: [
       {
         label: "CO2 produced",
-        data: datapoints.map((i) => {
+        data: dataPoints.map((i) => {
           return i.totalCarbon;
         }),
         borderColor: "rgb(28, 163, 35)",
@@ -53,7 +55,7 @@ export const ProgressChart = ({ datapoints }) => {
   };
 
   return (
-    <Card css={{ mw: "500px" }}>
+    <Card css={{ mw: "100%", padding: "10px", margin: "20px 0"}}>
       <Card.Body>
         <Line options={options} data={data} />
       </Card.Body>
