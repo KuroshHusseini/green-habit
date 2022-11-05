@@ -16,6 +16,7 @@ export const PurchaseOverviewList = ({ title, list }) => {
               company={item.company}
               amount={item.amount}
               products={item.products}
+              src={item.src}
             />
           </Grid>
         ))}

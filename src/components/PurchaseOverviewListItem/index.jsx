@@ -1,20 +1,19 @@
 import { Card, Col, Text, Row, Button } from "@nextui-org/react";
 import React from "react";
 
-export const PurchaseOverviewListItem = ({ id, company, amount, products }) => {
-  console.log(
-    "🚀 ~ file: index.jsx ~ line 5 ~ PurchaseOverviewListItem ~ company",
-    company
-  );
-  console.log(
-    "🚀 ~ file: index.jsx ~ line 5 ~ PurchaseOverviewListItem ~ products",
-    products
-  );
+export const PurchaseOverviewListItem = ({
+  id,
+  company,
+  amount,
+  products,
+  src,
+}) => {
+  console.log(src);
   return (
     <Card>
       <Card.Body css={{ p: 0 }}>
         <Card.Image
-          src="https://loremflickr.com/g/320/240/paris,girl/all"
+          src={src}
           objectFit="cover"
           width="100%"
           height="100%"

@@ -858,22 +858,36 @@
   ],
   "rewards": [
     {
-      "header": "10% Discount",
-      "src": "https://loremflickr.com/640/360",
-      "summary": "10% Discount from Lidl",
-      "description": "Get 10% off from groceries at Lidl."
+      "header": "50% Discount",
+      "src": "/public/scary_mannequin_discount.png",
+      "summary": "50% Discount from Lidl",
+      "description": "Get 50% off select Certified Circular Economy products at Lidl."
     },
     {
-      "header": "10€ Voucher",
-      "src": "https://loremflickr.com/640/360",
-      "summary": "10€ Kultuuriseteli",
-      "description": "Enjoy culture with this 10€ Voucher."
+      "header": "15€ Gift Card",
+      "src": "/public/gift.png",
+      "summary": "Celebrating Sustainable Technology",
+      "description": "Adidas is launching a new line of street wear made from 100% recycled material."
     },
     {
-      "header": "40% Discount",
-      "src": "https://loremflickr.com/640/360",
-      "summary": "40% Discount from HSL",
+      "header": "50% Discount",
+      "src": "/public/50perc.png",
+      "summary": "50% Discount from HSL",
       "description": "Travel sustainably with this single trip discount!"
+    }
+  ],
+  "suggestions": [
+    {
+      "header": "sugg 1",
+      "src": "/2.png",
+      "summary": "ugg 1",
+      "description": "ug 1"
+    },
+    {
+      "header": "sugg 2",
+      "src": "/public/1.png",
+      "summary": "sugg 2",
+      "description": "sugg 2"
     }
   ]
 }
