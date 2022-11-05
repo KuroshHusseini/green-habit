@@ -42,17 +42,17 @@
         {
           "id": 2,
           "product": "Eggplant - Baby",
-          "carbon": 0.75
+          "carbon": 0.1
         },
         {
           "id": 3,
           "product": "Molasses - Fancy",
-          "carbon": 0.34
+          "carbon": 0.4
         },
         {
           "id": 4,
           "product": "Onions - Green",
-          "carbon": 0.42
+          "carbon": 0.01
         }
       ]
     },
