@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container } from "@nextui-org/react";
+import { Card } from "@nextui-org/react";
 import {
   Chart as ChartJS,
   CategoryScale,
