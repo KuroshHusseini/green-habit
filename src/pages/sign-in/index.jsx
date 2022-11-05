@@ -56,36 +56,38 @@ const SignInPage = ({ customers }) => {
 
   return (
     <main>
-      <Container md css={{ height: "100vh" }}>
-      <Row justify="center" align="center" css={{ height: "100%" }}>
-        <Card css={{ mw: "400px" }}>
-          <Card.Body>
-            <Row justify="center" align="center">
-              <Col>
-                <Input
-                  css={{ width: "100%" }}
-                  label="E-mail"
-                  required
-                  type="email"
-                  initialValue={inputs.email}
-                  onChange={(e) => handleEmailChange(e.target.value)}
-                />
-                <Spacer y={0.5} />
-                <Input
-                  css={{ width: "100%" }}
-                  label="Password"
-                  required
-                  minLength={8}
-                  type="password"
-                  initialValue={inputs.password}
-                  onChange={(e) => handlePasswordChange(e.target.value)}
-                />
-                <Spacer y={0.5} />
-                <Button onClick={handleSubmit} css={{ width: "100%" }}>Login</Button>
-              </Col>
-            </Row>
-          </Card.Body>
-        </Card>
+      <Container css={{ height: "100vh" }}>
+        <Row justify="center" align="center" css={{ height: "100%" }}>
+          <Card css={{ mw: "400px" }}>
+            <Card.Body>
+              <Row justify="center" align="center">
+                <Col>
+                  <Input
+                    css={{ width: "100%" }}
+                    label="E-mail"
+                    required
+                    type="email"
+                    initialValue={inputs.email}
+                    onChange={(e) => handleEmailChange(e.target.value)}
+                  />
+                  <Spacer y={0.5} />
+                  <Input
+                    css={{ width: "100%" }}
+                    label="Password"
+                    required
+                    minLength={8}
+                    type="password"
+                    initialValue={inputs.password}
+                    onChange={(e) => handlePasswordChange(e.target.value)}
+                  />
+                  <Spacer y={0.5} />
+                  <Button onClick={handleSubmit} css={{ width: "100%" }}>
+                    Login
+                  </Button>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
         </Row>
       </Container>
     </main>
