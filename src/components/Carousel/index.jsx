@@ -28,7 +28,7 @@ export const Carousel = ({ list, imageSrc }) => {
         768: {
           width: 1024,
           slidesPerView: 3,
-        }
+        },
       }}
     >
       {list.map((item) => (
