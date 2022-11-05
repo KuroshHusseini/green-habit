@@ -37,7 +37,8 @@ export const ProgressChart = ({ datapoints: dataPoints }) => {
   if (!dataPoints) return null;
 
   const labels = dataPoints.map((i) => {
-    return i.company;
+    //return i.company;
+    return "";
   });
 
   const data = {
@@ -46,7 +47,7 @@ export const ProgressChart = ({ datapoints: dataPoints }) => {
       {
         label: "CO2 produced",
         data: dataPoints.map((i) => {
-          return i.totalCarbon;
+          return i.averageCarbon;
         }),
         borderColor: "rgb(28, 163, 35)",
         backgroundColor: "rgb(28, 163, 35, 0.5)",

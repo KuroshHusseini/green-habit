@@ -1,1457 +1,1144 @@
 {
   "purchases": [
     {
-      "id": "QGyFIyRJeJghTeIVPNac",
+      "id": "WMhAOQcIUQAHJnsxlKeT",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 241,
-      "company": "Farmer's market",
-      "totalCarbon": 3.33,
-      "averageCarbon": 0.48,
-      "products": [
-        { "product": "Coca Cola", "amount": 36, "carbon": 0.04 },
-        { "product": "MacBook Pro M5", "amount": 47, "carbon": 0.91 },
-        { "product": "Plants", "amount": 41, "carbon": 0.56 },
-        { "product": "Plants", "amount": 24, "carbon": 0.16 },
-        { "product": "Lime", "amount": 46, "carbon": 0.49 },
-        { "product": "Fried chicken", "amount": 43, "carbon": 0.21 },
-        { "product": "Haribo gummies", "amount": 4, "carbon": 0.96 }
-      ]
+      "amount": 21,
+      "company": "Luigi's",
+      "totalCarbon": 0.28,
+      "averageCarbon": 0.28,
+      "products": [{ "product": "Fried chicken", "amount": 21, "carbon": 0.28 }]
     },
     {
-      "id": "fmASDKJqPxGwHZtgiVRo",
+      "id": "cEWPAWfFbQHtZfMdVpsw",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 55,
-      "company": "Prisma",
-      "totalCarbon": 1.69,
-      "averageCarbon": 0.42,
+      "amount": 179,
+      "company": "Chips Man",
+      "totalCarbon": 3.64,
+      "averageCarbon": 0.4,
       "products": [
-        { "product": "Coca Cola", "amount": 11, "carbon": 0.73 },
-        { "product": "Coca Cola", "amount": 20, "carbon": 0.38 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 1,
-          "carbon": 0.4
-        },
-        { "product": "Coca Cola", "amount": 23, "carbon": 0.18 }
-      ]
-    },
-    {
-      "id": "BimqtpshJFxnfyIrUYWH",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 271,
-      "company": "Tax-Free",
-      "totalCarbon": 3.84,
-      "averageCarbon": 0.48,
-      "products": [
-        { "product": "Fried chicken", "amount": 31, "carbon": 0.16 },
-        { "product": "Redbull", "amount": 46, "carbon": 0.03 },
-        { "product": "Olive oil", "amount": 30, "carbon": 0.55 },
-        { "product": "Lime", "amount": 32, "carbon": 0.67 },
-        { "product": "Haribo gummies", "amount": 31, "carbon": 0.71 },
-        { "product": "Haribo gummies", "amount": 34, "carbon": 0.8 },
-        { "product": "Brownie cookies", "amount": 30, "carbon": 0.87 },
+        { "product": "Olive oil", "amount": 22, "carbon": 0.37 },
+        { "product": "Lime", "amount": 44, "carbon": 0.66 },
+        { "product": "Haribo gummies", "amount": 21, "carbon": 0.48 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 37,
-          "carbon": 0.05
-        }
-      ]
-    },
-    {
-      "id": "WloQgaoMAUfrCuEZjoig",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 91,
-      "company": "Lidl",
-      "totalCarbon": 2.59,
-      "averageCarbon": 0.52,
-      "products": [
-        { "product": "Haribo gummies", "amount": 7, "carbon": 0.93 },
-        { "product": "Lime", "amount": 38, "carbon": 0.12 },
-        { "product": "Apples", "amount": 7, "carbon": 0.47 },
-        { "product": "Redbull", "amount": 27, "carbon": 0.51 },
-        { "product": "Coca Cola", "amount": 12, "carbon": 0.56 }
-      ]
-    },
-    {
-      "id": "hvoYmbnqAKDoZeVfypbf",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 288,
-      "company": "Prisma",
-      "totalCarbon": 4.95,
-      "averageCarbon": 0.55,
-      "products": [
-        { "product": "Fried chicken", "amount": 39, "carbon": 0.04 },
-        { "product": "Cap", "amount": 22, "carbon": 0.87 },
-        { "product": "Redbull", "amount": 39, "carbon": 0.89 },
-        { "product": "Cap", "amount": 41, "carbon": 0.36 },
-        { "product": "Olive oil", "amount": 32, "carbon": 0.65 },
-        { "product": "Fried chicken", "amount": 30, "carbon": 0.91 },
-        { "product": "MacBook Pro M5", "amount": 35, "carbon": 0.06 },
-        { "product": "Brownie cookies", "amount": 4, "carbon": 0.62 },
-        { "product": "Coca Cola", "amount": 46, "carbon": 0.55 }
-      ]
-    },
-    {
-      "id": "xHRcuMsMAnCtRFTxYEOW",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 28,
-      "company": "Luigi's",
-      "totalCarbon": 0.63,
-      "averageCarbon": 0.63,
-      "products": [{ "product": "Cap", "amount": 28, "carbon": 0.63 }]
-    },
-    {
-      "id": "mZCTAXNVIOMjkWyShMfJ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 17,
-      "company": "Everything and anything shop",
-      "totalCarbon": 0.86,
-      "averageCarbon": 0.86,
-      "products": [{ "product": "Lime", "amount": 17, "carbon": 0.86 }]
-    },
-    {
-      "id": "uAWaSJBmbGIAbVMviiMq",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 95,
-      "company": "Tax-Free",
-      "totalCarbon": 1.7,
-      "averageCarbon": 0.42,
-      "products": [
-        { "product": "Plants", "amount": 36, "carbon": 0.91 },
-        { "product": "Cap", "amount": 5, "carbon": 0.53 },
-        { "product": "Cap", "amount": 26, "carbon": 0.2 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 28,
-          "carbon": 0.06
-        }
-      ]
-    },
-    {
-      "id": "EwFqwrNKMegroiIZlhqH",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 332,
-      "company": "Chips Man",
-      "totalCarbon": 7.22,
-      "averageCarbon": 0.52,
-      "products": [
-        { "product": "Apples", "amount": 15, "carbon": 0.48 },
-        { "product": "MacBook Pro M5", "amount": 25, "carbon": 0.07 },
-        { "product": "Cap", "amount": 44, "carbon": 0.87 },
-        { "product": "Apples", "amount": 43, "carbon": 0.76 },
-        { "product": "Olive oil", "amount": 6, "carbon": 0.02 },
-        { "product": "Redbull", "amount": 4, "carbon": 0.65 },
-        { "product": "Lime", "amount": 1, "carbon": 0.18 },
-        { "product": "Plants", "amount": 43, "carbon": 0.83 },
-        { "product": "Redbull", "amount": 21, "carbon": 0.27 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 20,
-          "carbon": 0.58
+          "amount": 15,
+          "carbon": 0.34
         },
-        { "product": "Coca Cola", "amount": 32, "carbon": 0.9 },
-        { "product": "Cap", "amount": 9, "carbon": 0.83 },
-        { "product": "MacBook Pro M5", "amount": 47, "carbon": 0.63 },
-        { "product": "MacBook Pro M5", "amount": 22, "carbon": 0.15 }
+        { "product": "Coca Cola", "amount": 17, "carbon": 0.05 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 0,
+          "carbon": 0.21
+        },
+        { "product": "Fried chicken", "amount": 27, "carbon": 0.68 },
+        { "product": "Redbull", "amount": 29, "carbon": 0.69 },
+        { "product": "Coca Cola", "amount": 4, "carbon": 0.16 }
       ]
     },
     {
-      "id": "JsSqZHgNbErNyDkZGXCx",
+      "id": "LBNxZYZroeHEEGwMEGAz",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 364,
-      "company": "Tax-Free",
-      "totalCarbon": 5.77,
+      "amount": 162,
+      "company": "Chips Man",
+      "totalCarbon": 2.06,
       "averageCarbon": 0.41,
       "products": [
-        { "product": "MacBook Pro M5", "amount": 22, "carbon": 0.6 },
-        { "product": "Brownie cookies", "amount": 19, "carbon": 0.5 },
-        { "product": "Coca Cola", "amount": 24, "carbon": 0.12 },
-        { "product": "Redbull", "amount": 9, "carbon": 0.62 },
-        { "product": "Plants", "amount": 16, "carbon": 0.01 },
-        { "product": "Cap", "amount": 21, "carbon": 0.14 },
-        { "product": "Brownie cookies", "amount": 44, "carbon": 0.91 },
-        { "product": "Fried chicken", "amount": 29, "carbon": 0.47 },
-        { "product": "Coca Cola", "amount": 23, "carbon": 0.13 },
-        { "product": "Plants", "amount": 46, "carbon": 0.43 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 36,
-          "carbon": 0.74
+          "amount": 49,
+          "carbon": 0.67
         },
-        { "product": "Coca Cola", "amount": 14, "carbon": 0.55 },
-        { "product": "Olive oil", "amount": 49, "carbon": 0.24 },
-        { "product": "Brownie cookies", "amount": 12, "carbon": 0.31 }
+        { "product": "Brownie cookies", "amount": 45, "carbon": 0.29 },
+        { "product": "Haribo gummies", "amount": 44, "carbon": 0.29 },
+        { "product": "Haribo gummies", "amount": 3, "carbon": 0.54 },
+        { "product": "Fried chicken", "amount": 21, "carbon": 0.27 }
       ]
     },
     {
-      "id": "DEiWJSWLtfzSvjKfHKZK",
+      "id": "BKOUtPTwBShqkorFutkW",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 28,
+      "amount": 37,
       "company": "Tax-Free",
-      "totalCarbon": 1.44,
-      "averageCarbon": 0.72,
+      "totalCarbon": 1.21,
+      "averageCarbon": 0.6,
       "products": [
-        { "product": "MacBook Pro M5", "amount": 2, "carbon": 0.78 },
-        { "product": "Redbull", "amount": 26, "carbon": 0.66 }
+        { "product": "MacBook Pro M5", "amount": 34, "carbon": 0.78 },
+        { "product": "Olive oil", "amount": 3, "carbon": 0.43 }
       ]
     },
     {
-      "id": "GvUKfFkkSaLfOudiazHK",
+      "id": "TpuIALRcoMrWmMFZkWaB",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 401,
-      "company": "Lidl",
-      "totalCarbon": 8.07,
-      "averageCarbon": 0.5,
-      "products": [
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 39,
-          "carbon": 0.33
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 19,
-          "carbon": 0.83
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 11,
-          "carbon": 0.79
-        },
-        { "product": "MacBook Pro M5", "amount": 11, "carbon": 0.66 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 11,
-          "carbon": 0.07
-        },
-        { "product": "MacBook Pro M5", "amount": 16, "carbon": 0.02 },
-        { "product": "Brownie cookies", "amount": 34, "carbon": 0.57 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 42,
-          "carbon": 0.77
-        },
-        { "product": "Redbull", "amount": 40, "carbon": 0.77 },
-        { "product": "Apples", "amount": 37, "carbon": 0.78 },
-        { "product": "Olive oil", "amount": 21, "carbon": 0.94 },
-        { "product": "Fried chicken", "amount": 23, "carbon": 0.71 },
-        { "product": "Haribo gummies", "amount": 48, "carbon": 0.34 },
-        { "product": "Olive oil", "amount": 27, "carbon": 0.38 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 2,
-          "carbon": 0.01
-        },
-        { "product": "MacBook Pro M5", "amount": 20, "carbon": 0.1 }
-      ]
-    },
-    {
-      "id": "EWDEpjPnDWdpHaiccZSQ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 247,
-      "company": "Prisma",
-      "totalCarbon": 5.33,
-      "averageCarbon": 0.67,
-      "products": [
-        { "product": "Brownie cookies", "amount": 45, "carbon": 0.85 },
-        { "product": "Lime", "amount": 34, "carbon": 0.3 },
-        { "product": "Apples", "amount": 38, "carbon": 0.44 },
-        { "product": "Cap", "amount": 25, "carbon": 0.69 },
-        { "product": "Brownie cookies", "amount": 8, "carbon": 0.95 },
-        { "product": "Apples", "amount": 47, "carbon": 0.95 },
-        { "product": "Fried chicken", "amount": 10, "carbon": 0.95 },
-        { "product": "Redbull", "amount": 40, "carbon": 0.2 }
-      ]
-    },
-    {
-      "id": "CAhkkIrnZQtqTxStrwRN",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 458,
-      "company": "Farmer's market",
-      "totalCarbon": 4.07,
-      "averageCarbon": 0.23,
-      "products": [
-        { "product": "MacBook Pro M5", "amount": 48, "carbon": 0.53 },
-        { "product": "Brownie cookies", "amount": 4, "carbon": 0.38 },
-        { "product": "Olive oil", "amount": 17, "carbon": 0.7 },
-        { "product": "Fried chicken", "amount": 45, "carbon": 0.09 },
-        { "product": "Brownie cookies", "amount": 48, "carbon": 0.11 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 41,
-          "carbon": 0.02
-        },
-        { "product": "Coca Cola", "amount": 21, "carbon": 0.17 },
-        { "product": "Brownie cookies", "amount": 41, "carbon": 0.14 },
-        { "product": "Lime", "amount": 0, "carbon": 0.17 },
-        { "product": "MacBook Pro M5", "amount": 21, "carbon": 0.5 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 2,
-          "carbon": 0.39
-        },
-        { "product": "Lime", "amount": 0, "carbon": 0.14 },
-        { "product": "Plants", "amount": 28, "carbon": 0.01 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 27,
-          "carbon": 0.47
-        },
-        { "product": "Cap", "amount": 38, "carbon": 0.01 },
-        { "product": "Olive oil", "amount": 38, "carbon": 0.05 },
-        { "product": "Coca Cola", "amount": 10, "carbon": 0.11 },
-        { "product": "Fried chicken", "amount": 29, "carbon": 0.08 }
-      ]
-    },
-    {
-      "id": "jiLtyjTMzETMIHedgRKp",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 352,
-      "company": "Chips Man",
-      "totalCarbon": 8.92,
-      "averageCarbon": 0.5,
-      "products": [
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 6,
-          "carbon": 0.6
-        },
-        { "product": "Apples", "amount": 22, "carbon": 0.19 },
-        { "product": "Coca Cola", "amount": 10, "carbon": 0.27 },
-        { "product": "MacBook Pro M5", "amount": 14, "carbon": 0.14 },
-        { "product": "Fried chicken", "amount": 7, "carbon": 0.61 },
-        { "product": "Coca Cola", "amount": 48, "carbon": 0.62 },
-        { "product": "Apples", "amount": 17, "carbon": 0.81 },
-        { "product": "Cap", "amount": 28, "carbon": 0.43 },
-        { "product": "Cap", "amount": 28, "carbon": 0.96 },
-        { "product": "Olive oil", "amount": 37, "carbon": 0.68 },
-        { "product": "Haribo gummies", "amount": 23, "carbon": 0.15 },
-        { "product": "Cap", "amount": 10, "carbon": 0.38 },
-        { "product": "Lime", "amount": 35, "carbon": 0.84 },
-        { "product": "Apples", "amount": 2, "carbon": 0.22 },
-        { "product": "Fried chicken", "amount": 28, "carbon": 0.87 },
-        { "product": "Cap", "amount": 0, "carbon": 0.01 },
-        { "product": "Cap", "amount": 14, "carbon": 0.53 },
-        { "product": "Fried chicken", "amount": 23, "carbon": 0.61 }
-      ]
-    },
-    {
-      "id": "LqqOqQCJWTErnCJCDNtc",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 17,
-      "company": "Everything and anything shop",
-      "totalCarbon": 1.03,
-      "averageCarbon": 0.34,
-      "products": [
-        { "product": "Lime", "amount": 4, "carbon": 0.63 },
-        { "product": "Fried chicken", "amount": 3, "carbon": 0.11 },
-        { "product": "Fried chicken", "amount": 10, "carbon": 0.29 }
-      ]
-    },
-    {
-      "id": "NDnjbOZmHaLtSRNvLHEO",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 113,
+      "amount": 10,
       "company": "Luigi's",
-      "totalCarbon": 1.16,
-      "averageCarbon": 0.39,
+      "totalCarbon": 0.85,
+      "averageCarbon": 0.85,
       "products": [
-        { "product": "Fried chicken", "amount": 26, "carbon": 0.08 },
-        { "product": "Redbull", "amount": 45, "carbon": 0.44 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 42,
-          "carbon": 0.64
+          "amount": 10,
+          "carbon": 0.85
         }
       ]
     },
     {
-      "id": "RetzluiVQCfSBbbSMNMT",
+      "id": "UKvSEloPkXvhyIhGlMnj",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 176,
-      "company": "Everything and anything shop",
-      "totalCarbon": 5.58,
-      "averageCarbon": 0.51,
-      "products": [
-        { "product": "Olive oil", "amount": 8, "carbon": 0.04 },
-        { "product": "Plants", "amount": 18, "carbon": 0.72 },
-        { "product": "Lime", "amount": 15, "carbon": 0.86 },
-        { "product": "Fried chicken", "amount": 5, "carbon": 0.18 },
-        { "product": "Redbull", "amount": 21, "carbon": 0.72 },
-        { "product": "Plants", "amount": 13, "carbon": 0.93 },
-        { "product": "Fried chicken", "amount": 11, "carbon": 0.44 },
-        { "product": "Coca Cola", "amount": 21, "carbon": 0.82 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 10,
-          "carbon": 0.26
-        },
-        { "product": "Plants", "amount": 45, "carbon": 0.13 },
-        { "product": "Fried chicken", "amount": 9, "carbon": 0.48 }
-      ]
-    },
-    {
-      "id": "SsvvcWSHbJNSqxRMxyzq",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 422,
-      "company": "Luigi's",
-      "totalCarbon": 10.5,
-      "averageCarbon": 0.58,
-      "products": [
-        { "product": "Brownie cookies", "amount": 4, "carbon": 0.67 },
-        { "product": "Olive oil", "amount": 33, "carbon": 0.81 },
-        { "product": "Brownie cookies", "amount": 28, "carbon": 0.61 },
-        { "product": "Haribo gummies", "amount": 21, "carbon": 0.66 },
-        { "product": "Redbull", "amount": 37, "carbon": 0.85 },
-        { "product": "Plants", "amount": 2, "carbon": 0.32 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 17,
-          "carbon": 0.36
-        },
-        { "product": "Cap", "amount": 40, "carbon": 0.71 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 45,
-          "carbon": 0.1
-        },
-        { "product": "Cap", "amount": 30, "carbon": 0.62 },
-        { "product": "Plants", "amount": 16, "carbon": 0.85 },
-        { "product": "Coca Cola", "amount": 47, "carbon": 0.77 },
-        { "product": "Fried chicken", "amount": 20, "carbon": 0.02 },
-        { "product": "Redbull", "amount": 28, "carbon": 0.67 },
-        { "product": "Coca Cola", "amount": 15, "carbon": 0.71 },
-        { "product": "MacBook Pro M5", "amount": 11, "carbon": 0.29 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 4,
-          "carbon": 0.53
-        },
-        { "product": "Cap", "amount": 24, "carbon": 0.95 }
-      ]
-    },
-    {
-      "id": "WsjLHWQeYLFRSRToQjgZ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 295,
+      "amount": 240,
       "company": "Tax-Free",
-      "totalCarbon": 6.45,
-      "averageCarbon": 0.5,
-      "products": [
-        { "product": "Haribo gummies", "amount": 29, "carbon": 0.51 },
-        { "product": "Lime", "amount": 1, "carbon": 0.76 },
-        { "product": "Brownie cookies", "amount": 42, "carbon": 0.21 },
-        { "product": "Apples", "amount": 33, "carbon": 0.05 },
-        { "product": "MacBook Pro M5", "amount": 12, "carbon": 0.14 },
-        { "product": "MacBook Pro M5", "amount": 37, "carbon": 0.93 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 16,
-          "carbon": 0.98
-        },
-        { "product": "Redbull", "amount": 1, "carbon": 0.35 },
-        { "product": "MacBook Pro M5", "amount": 12, "carbon": 0.09 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 45,
-          "carbon": 0.42
-        },
-        { "product": "Lime", "amount": 26, "carbon": 0.75 },
-        { "product": "Coca Cola", "amount": 25, "carbon": 0.83 },
-        { "product": "Coca Cola", "amount": 16, "carbon": 0.43 }
-      ]
-    },
-    {
-      "id": "fGlofHyhSjiDxvenLnEh",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 348,
-      "company": "Everything and anything shop",
-      "totalCarbon": 8.71,
-      "averageCarbon": 0.46,
-      "products": [
-        { "product": "Brownie cookies", "amount": 6, "carbon": 0.12 },
-        { "product": "Cap", "amount": 11, "carbon": 0.96 },
-        { "product": "Plants", "amount": 16, "carbon": 0.75 },
-        { "product": "Olive oil", "amount": 6, "carbon": 0.49 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 18,
-          "carbon": 0.86
-        },
-        { "product": "Apples", "amount": 10, "carbon": 0.85 },
-        { "product": "Haribo gummies", "amount": 43, "carbon": 0.5 },
-        { "product": "Redbull", "amount": 5, "carbon": 0.99 },
-        { "product": "Fried chicken", "amount": 11, "carbon": 0.09 },
-        { "product": "Coca Cola", "amount": 19, "carbon": 0.54 },
-        { "product": "Redbull", "amount": 22, "carbon": 0.01 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 14,
-          "carbon": 0.92
-        },
-        { "product": "Cap", "amount": 44, "carbon": 0.2 },
-        { "product": "Cap", "amount": 0, "carbon": 0.37 },
-        { "product": "Plants", "amount": 38, "carbon": 0.14 },
-        { "product": "Redbull", "amount": 21, "carbon": 0.07 },
-        { "product": "Olive oil", "amount": 22, "carbon": 0.33 },
-        { "product": "Olive oil", "amount": 29, "carbon": 0.32 },
-        { "product": "Fried chicken", "amount": 13, "carbon": 0.2 }
-      ]
-    },
-    {
-      "id": "wUtymbLCktgAIUghcwdJ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 193,
-      "company": "Everything and anything shop",
-      "totalCarbon": 4.35,
-      "averageCarbon": 0.54,
-      "products": [
-        { "product": "Brownie cookies", "amount": 30, "carbon": 0.09 },
-        { "product": "Olive oil", "amount": 44, "carbon": 0.82 },
-        { "product": "Haribo gummies", "amount": 21, "carbon": 0.68 },
-        { "product": "Plants", "amount": 13, "carbon": 0.42 },
-        { "product": "Coca Cola", "amount": 4, "carbon": 0.7 },
-        { "product": "MacBook Pro M5", "amount": 12, "carbon": 0.43 },
-        { "product": "Cap", "amount": 47, "carbon": 0.45 },
-        { "product": "Apples", "amount": 22, "carbon": 0.76 }
-      ]
-    },
-    {
-      "id": "YnFmxZmsbNzbvnHrFbOQ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 387,
-      "company": "Prisma",
-      "totalCarbon": 6.45,
+      "totalCarbon": 4.71,
       "averageCarbon": 0.43,
       "products": [
-        { "product": "Brownie cookies", "amount": 7, "carbon": 0.49 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 42,
-          "carbon": 0.55
-        },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 4,
-          "carbon": 0.32
-        },
-        { "product": "MacBook Pro M5", "amount": 40, "carbon": 0.17 },
-        { "product": "Redbull", "amount": 40, "carbon": 0.57 },
-        { "product": "Brownie cookies", "amount": 25, "carbon": 0.11 },
-        { "product": "Apples", "amount": 38, "carbon": 0.79 },
-        { "product": "Plants", "amount": 1, "carbon": 0.15 },
-        { "product": "Olive oil", "amount": 22, "carbon": 0.95 },
-        { "product": "Lime", "amount": 28, "carbon": 0.28 },
-        { "product": "Apples", "amount": 27, "carbon": 0.14 },
-        { "product": "Olive oil", "amount": 5, "carbon": 0.47 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 23,
-          "carbon": 0.86
-        },
-        { "product": "Apples", "amount": 42, "carbon": 0.27 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 43,
-          "carbon": 0.33
-        }
-      ]
-    },
-    {
-      "id": "CrAyhlwBCzRVZIkSyTlm",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 342,
-      "company": "Tax-Free",
-      "totalCarbon": 5.26,
-      "averageCarbon": 0.48,
-      "products": [
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 23,
-          "carbon": 0.75
-        },
-        { "product": "Brownie cookies", "amount": 42, "carbon": 0.95 },
-        { "product": "Coca Cola", "amount": 21, "carbon": 0.12 },
-        { "product": "MacBook Pro M5", "amount": 45, "carbon": 0.4 },
-        { "product": "Apples", "amount": 8, "carbon": 0.66 },
-        { "product": "Coca Cola", "amount": 23, "carbon": 0.37 },
-        { "product": "Coca Cola", "amount": 39, "carbon": 0.2 },
-        { "product": "Apples", "amount": 23, "carbon": 0.32 },
+        { "product": "Plants", "amount": 38, "carbon": 0.23 },
+        { "product": "Olive oil", "amount": 30, "carbon": 0.14 },
+        { "product": "Lime", "amount": 43, "carbon": 0.21 },
         {
           "product": "Round-trip ticket on Interrail R1",
           "amount": 47,
-          "carbon": 0.51
-        },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 27,
-          "carbon": 0.01
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 44,
-          "carbon": 0.97
-        }
-      ]
-    },
-    {
-      "id": "yOPERjkKQDIEefbChLei",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 349,
-      "company": "Chips Man",
-      "totalCarbon": 8.53,
-      "averageCarbon": 0.53,
-      "products": [
-        { "product": "Apples", "amount": 2, "carbon": 0.1 },
-        { "product": "MacBook Pro M5", "amount": 34, "carbon": 0.89 },
-        { "product": "Haribo gummies", "amount": 30, "carbon": 0.71 },
-        { "product": "Redbull", "amount": 6, "carbon": 0.81 },
-        { "product": "Olive oil", "amount": 25, "carbon": 0.18 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 44,
-          "carbon": 0.27
-        },
-        { "product": "Apples", "amount": 5, "carbon": 0.24 },
-        { "product": "Apples", "amount": 15, "carbon": 0.72 },
-        { "product": "Coca Cola", "amount": 0, "carbon": 0.98 },
-        { "product": "Cap", "amount": 4, "carbon": 0.96 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 46,
-          "carbon": 0.6
-        },
-        { "product": "MacBook Pro M5", "amount": 16, "carbon": 0.59 },
-        { "product": "MacBook Pro M5", "amount": 10, "carbon": 0.67 },
-        { "product": "Lime", "amount": 16, "carbon": 0.15 },
-        { "product": "Cap", "amount": 48, "carbon": 0.27 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 48,
-          "carbon": 0.39
-        }
-      ]
-    },
-    {
-      "id": "zRJanQvruwPLZWbBXEMI",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 233,
-      "company": "Everything and anything shop",
-      "totalCarbon": 5.96,
-      "averageCarbon": 0.46,
-      "products": [
-        { "product": "Lime", "amount": 0, "carbon": 0.58 },
-        { "product": "Coca Cola", "amount": 6, "carbon": 0.98 },
-        { "product": "Brownie cookies", "amount": 45, "carbon": 0.86 },
-        { "product": "Olive oil", "amount": 19, "carbon": 0.18 },
-        { "product": "Coca Cola", "amount": 12, "carbon": 0.07 },
-        { "product": "Coca Cola", "amount": 1, "carbon": 0.11 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 36,
-          "carbon": 0.28
-        },
-        { "product": "Brownie cookies", "amount": 16, "carbon": 0.98 },
-        { "product": "MacBook Pro M5", "amount": 15, "carbon": 0.28 },
-        { "product": "Cap", "amount": 17, "carbon": 0.03 },
-        { "product": "Olive oil", "amount": 22, "carbon": 0.86 },
-        { "product": "Olive oil", "amount": 24, "carbon": 0.29 },
-        { "product": "Coca Cola", "amount": 20, "carbon": 0.46 }
-      ]
-    },
-    {
-      "id": "YNAdqcpRQZlhnfVlZbZo",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 253,
-      "company": "Lidl",
-      "totalCarbon": 7.03,
-      "averageCarbon": 0.54,
-      "products": [
-        { "product": "Plants", "amount": 4, "carbon": 0.53 },
-        { "product": "Redbull", "amount": 17, "carbon": 0.02 },
-        { "product": "Fried chicken", "amount": 22, "carbon": 0.27 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 37,
-          "carbon": 0.77
-        },
-        { "product": "MacBook Pro M5", "amount": 44, "carbon": 0.63 },
-        { "product": "Brownie cookies", "amount": 15, "carbon": 0.75 },
-        { "product": "Cap", "amount": 14, "carbon": 0.1 },
-        { "product": "Lime", "amount": 42, "carbon": 0.93 },
-        { "product": "Redbull", "amount": 2, "carbon": 0.57 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 4,
-          "carbon": 0.18
-        },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 33,
-          "carbon": 0.96
-        },
-        { "product": "Redbull", "amount": 14, "carbon": 0.99 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 5,
-          "carbon": 0.33
-        }
-      ]
-    },
-    {
-      "id": "sVkaxPPMGIMrrYZAcoXj",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 395,
-      "company": "Tax-Free",
-      "totalCarbon": 4.94,
-      "averageCarbon": 0.31,
-      "products": [
-        { "product": "Apples", "amount": 49, "carbon": 0.07 },
-        { "product": "Coca Cola", "amount": 27, "carbon": 0.8 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 20,
-          "carbon": 0.01
-        },
-        { "product": "Brownie cookies", "amount": 12, "carbon": 0.2 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 11,
-          "carbon": 0.48
-        },
-        { "product": "Apples", "amount": 30, "carbon": 0.77 },
-        { "product": "Plants", "amount": 41, "carbon": 0.87 },
-        { "product": "Olive oil", "amount": 30, "carbon": 0.55 },
-        { "product": "MacBook Pro M5", "amount": 43, "carbon": 0.26 },
-        { "product": "Apples", "amount": 40, "carbon": 0.27 },
-        { "product": "Brownie cookies", "amount": 5, "carbon": 0.04 },
-        { "product": "Cap", "amount": 49, "carbon": 0.03 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 20,
-          "carbon": 0.05
-        },
-        { "product": "Fried chicken", "amount": 3, "carbon": 0.06 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 7,
-          "carbon": 0.04
-        },
-        { "product": "Lime", "amount": 8, "carbon": 0.44 }
-      ]
-    },
-    {
-      "id": "lbJbGVrHbzDZMZDqfQBZ",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 70,
-      "company": "Prisma",
-      "totalCarbon": 1.11,
-      "averageCarbon": 0.37,
-      "products": [
-        { "product": "Haribo gummies", "amount": 33, "carbon": 0.53 },
-        { "product": "Olive oil", "amount": 34, "carbon": 0.42 },
-        { "product": "Haribo gummies", "amount": 3, "carbon": 0.16 }
-      ]
-    },
-    {
-      "id": "RkTbAjnaOMwUuWYnrJcv",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 159,
-      "company": "Everything and anything shop",
-      "totalCarbon": 2.84,
-      "averageCarbon": 0.36,
-      "products": [
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 12,
-          "carbon": 0.18
-        },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 0,
-          "carbon": 0.01
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 13,
-          "carbon": 0.01
-        },
-        { "product": "Apples", "amount": 30, "carbon": 0.42 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 14,
-          "carbon": 0.83
-        },
-        { "product": "Coca Cola", "amount": 25, "carbon": 0.88 },
-        { "product": "Lime", "amount": 35, "carbon": 0.1 },
-        { "product": "Coca Cola", "amount": 30, "carbon": 0.41 }
-      ]
-    },
-    {
-      "id": "fzMbLwgSlbrPGOHXSoNt",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 234,
-      "company": "Prisma",
-      "totalCarbon": 6.86,
-      "averageCarbon": 0.57,
-      "products": [
-        { "product": "Plants", "amount": 27, "carbon": 0.26 },
-        { "product": "Redbull", "amount": 19, "carbon": 0.96 },
-        { "product": "Haribo gummies", "amount": 22, "carbon": 0.85 },
-        { "product": "Plants", "amount": 12, "carbon": 0.83 },
-        { "product": "Fried chicken", "amount": 12, "carbon": 0.61 },
-        { "product": "Olive oil", "amount": 19, "carbon": 0.85 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 7,
-          "carbon": 0.59
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 39,
-          "carbon": 0.28
-        },
-        { "product": "Haribo gummies", "amount": 13, "carbon": 0.46 },
-        { "product": "Lime", "amount": 11, "carbon": 0.2 },
-        { "product": "Coca Cola", "amount": 34, "carbon": 0.4 },
-        { "product": "Coca Cola", "amount": 19, "carbon": 0.57 }
-      ]
-    },
-    {
-      "id": "FwTOYhCmEIGdszFjkNDt",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 196,
-      "company": "Farmer's market",
-      "totalCarbon": 3.51,
-      "averageCarbon": 0.39,
-      "products": [
-        { "product": "Fried chicken", "amount": 3, "carbon": 0.56 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 10,
-          "carbon": 0.2
-        },
-        { "product": "Cap", "amount": 0, "carbon": 0.52 },
-        { "product": "Apples", "amount": 36, "carbon": 0.13 },
-        { "product": "Olive oil", "amount": 11, "carbon": 0.37 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 49,
-          "carbon": 0.25
-        },
-        { "product": "Brownie cookies", "amount": 42, "carbon": 0.05 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 11,
-          "carbon": 0.61
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 34,
-          "carbon": 0.82
-        }
-      ]
-    },
-    {
-      "id": "WHcLlAQQqMDHRJOfJOZK",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 142,
-      "company": "Luigi's",
-      "totalCarbon": 4.1,
-      "averageCarbon": 0.68,
-      "products": [
-        { "product": "Lime", "amount": 40, "carbon": 0.63 },
-        { "product": "Fried chicken", "amount": 18, "carbon": 0.77 },
-        { "product": "Lime", "amount": 17, "carbon": 0.27 },
-        { "product": "Plants", "amount": 2, "carbon": 0.82 },
-        { "product": "Haribo gummies", "amount": 34, "carbon": 0.7 },
-        { "product": "Redbull", "amount": 31, "carbon": 0.91 }
-      ]
-    },
-    {
-      "id": "uKDzSmNJSLRJcvqZCpeO",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 298,
-      "company": "Lidl",
-      "totalCarbon": 4.94,
-      "averageCarbon": 0.62,
-      "products": [
-        { "product": "Coca Cola", "amount": 46, "carbon": 0.99 },
-        { "product": "Apples", "amount": 37, "carbon": 0.44 },
-        { "product": "Lime", "amount": 40, "carbon": 0.43 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 10,
-          "carbon": 0.84
-        },
-        { "product": "Olive oil", "amount": 42, "carbon": 0.6 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 49,
-          "carbon": 0.64
-        },
-        { "product": "Coca Cola", "amount": 41, "carbon": 0.58 },
-        { "product": "MacBook Pro M5", "amount": 33, "carbon": 0.42 }
-      ]
-    },
-    {
-      "id": "AcBSMhvJjkQsivchMeqw",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 152,
-      "company": "Prisma",
-      "totalCarbon": 5.92,
-      "averageCarbon": 0.54,
-      "products": [
-        { "product": "Cap", "amount": 12, "carbon": 0.81 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 19,
-          "carbon": 0.59
-        },
-        { "product": "Coca Cola", "amount": 16, "carbon": 0.56 },
-        { "product": "Redbull", "amount": 0, "carbon": 0.6 },
-        { "product": "Redbull", "amount": 13, "carbon": 0.49 },
-        { "product": "Redbull", "amount": 5, "carbon": 0.52 },
-        { "product": "Haribo gummies", "amount": 41, "carbon": 0.26 },
-        { "product": "Apples", "amount": 17, "carbon": 0.44 },
-        { "product": "Cap", "amount": 5, "carbon": 0.71 },
-        { "product": "Olive oil", "amount": 3, "carbon": 0.06 },
-        { "product": "Haribo gummies", "amount": 21, "carbon": 0.88 }
-      ]
-    },
-    {
-      "id": "SGHcimEuBaWFwdUFngae",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 419,
-      "company": "Everything and anything shop",
-      "totalCarbon": 6.89,
-      "averageCarbon": 0.41,
-      "products": [
-        { "product": "Apples", "amount": 36, "carbon": 0.19 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 24,
-          "carbon": 0.27
-        },
-        { "product": "Coca Cola", "amount": 39, "carbon": 0.03 },
-        { "product": "Apples", "amount": 25, "carbon": 0.08 },
-        { "product": "Plants", "amount": 16, "carbon": 0.24 },
-        { "product": "Apples", "amount": 29, "carbon": 0.32 },
-        { "product": "Haribo gummies", "amount": 1, "carbon": 0.51 },
-        { "product": "Haribo gummies", "amount": 10, "carbon": 0.8 },
-        { "product": "Haribo gummies", "amount": 38, "carbon": 0.74 },
-        { "product": "Plants", "amount": 12, "carbon": 0.76 },
-        { "product": "Coca Cola", "amount": 30, "carbon": 0.15 },
-        { "product": "MacBook Pro M5", "amount": 13, "carbon": 0.17 },
-        { "product": "Olive oil", "amount": 33, "carbon": 0.89 },
-        { "product": "Redbull", "amount": 48, "carbon": 0.38 },
-        { "product": "Coca Cola", "amount": 42, "carbon": 0.44 },
-        { "product": "Brownie cookies", "amount": 2, "carbon": 0.72 },
-        { "product": "Plants", "amount": 21, "carbon": 0.2 }
-      ]
-    },
-    {
-      "id": "CHUoPIyFBKHIbTcrIdZA",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 489,
-      "company": "Farmer's market",
-      "totalCarbon": 7.24,
-      "averageCarbon": 0.4,
-      "products": [
-        { "product": "Apples", "amount": 49, "carbon": 0.65 },
-        { "product": "Coca Cola", "amount": 3, "carbon": 0.04 },
-        { "product": "Lime", "amount": 32, "carbon": 0.09 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 34,
-          "carbon": 0.15
-        },
-        { "product": "Apples", "amount": 14, "carbon": 0.32 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 43,
           "carbon": 0.8
         },
+        { "product": "Coca Cola", "amount": 48, "carbon": 0.64 },
+        { "product": "Coca Cola", "amount": 2, "carbon": 0.67 },
+        { "product": "Redbull", "amount": 12, "carbon": 0.34 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 43,
-          "carbon": 0.65
+          "amount": 0,
+          "carbon": 0.23
         },
-        { "product": "Redbull", "amount": 2, "carbon": 0.04 },
-        { "product": "Coca Cola", "amount": 6, "carbon": 0.47 },
-        { "product": "Haribo gummies", "amount": 35, "carbon": 0.62 },
-        { "product": "Cap", "amount": 1, "carbon": 0.48 },
-        { "product": "Brownie cookies", "amount": 45, "carbon": 0.62 },
-        { "product": "Lime", "amount": 38, "carbon": 0.07 },
-        { "product": "Coca Cola", "amount": 12, "carbon": 0.25 },
-        { "product": "Redbull", "amount": 21, "carbon": 0.86 },
-        { "product": "Haribo gummies", "amount": 38, "carbon": 0.58 },
-        { "product": "MacBook Pro M5", "amount": 30, "carbon": 0.07 },
-        { "product": "Cap", "amount": 43, "carbon": 0.48 }
+        { "product": "Cap", "amount": 7, "carbon": 0.64 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 9,
+          "carbon": 0.75
+        },
+        { "product": "Apples", "amount": 4, "carbon": 0.06 }
       ]
     },
     {
-      "id": "fiERLOWcpILALecUgKYN",
+      "id": "DYzNFhRfuxHXtTqViqbI",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 248,
-      "company": "Farmer's market",
-      "totalCarbon": 5.51,
-      "averageCarbon": 0.61,
+      "amount": 189,
+      "company": "Chips Man",
+      "totalCarbon": 3.96,
+      "averageCarbon": 0.44,
       "products": [
-        { "product": "Brownie cookies", "amount": 37, "carbon": 0.83 },
-        { "product": "Cap", "amount": 18, "carbon": 0.4 },
+        { "product": "Fried chicken", "amount": 12, "carbon": 0.21 },
         {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 24,
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 1,
           "carbon": 0.06
         },
+        { "product": "Cap", "amount": 37, "carbon": 0.69 },
+        { "product": "Redbull", "amount": 45, "carbon": 0.88 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 41,
-          "carbon": 0.88
+          "amount": 26,
+          "carbon": 0.74
         },
-        { "product": "Lime", "amount": 25, "carbon": 0.37 },
-        { "product": "MacBook Pro M5", "amount": 16, "carbon": 0.89 },
-        { "product": "Olive oil", "amount": 18, "carbon": 0.91 },
-        { "product": "Apples", "amount": 33, "carbon": 0.75 },
-        { "product": "Haribo gummies", "amount": 36, "carbon": 0.42 }
+        { "product": "MacBook Pro M5", "amount": 14, "carbon": 0.36 },
+        { "product": "Redbull", "amount": 6, "carbon": 0.43 },
+        { "product": "Brownie cookies", "amount": 34, "carbon": 0.55 },
+        { "product": "Cap", "amount": 14, "carbon": 0.04 }
       ]
     },
     {
-      "id": "XDqoAysQQAEzFqTJsLti",
+      "id": "pyocRZiIWllzxAcfEgcE",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 154,
-      "company": "Everything and anything shop",
-      "totalCarbon": 3.26,
-      "averageCarbon": 0.47,
+      "amount": 207,
+      "company": "Luigi's",
+      "totalCarbon": 3.93,
+      "averageCarbon": 0.49,
       "products": [
-        { "product": "Lime", "amount": 46, "carbon": 0.42 },
-        { "product": "Brownie cookies", "amount": 19, "carbon": 0.09 },
+        { "product": "Brownie cookies", "amount": 46, "carbon": 0.44 },
+        { "product": "Cap", "amount": 45, "carbon": 0.65 },
+        { "product": "Plants", "amount": 1, "carbon": 0.23 },
+        { "product": "Redbull", "amount": 35, "carbon": 0.28 },
+        { "product": "Cap", "amount": 6, "carbon": 0.41 },
+        { "product": "Haribo gummies", "amount": 8, "carbon": 0.67 },
+        { "product": "Haribo gummies", "amount": 18, "carbon": 0.42 },
+        { "product": "Redbull", "amount": 48, "carbon": 0.83 }
+      ]
+    },
+    {
+      "id": "LaRplzYHIBDTHFdMzCJf",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 114,
+      "company": "Chips Man",
+      "totalCarbon": 1.43,
+      "averageCarbon": 0.29,
+      "products": [
+        { "product": "Redbull", "amount": 10, "carbon": 0.03 },
+        { "product": "Plants", "amount": 13, "carbon": 0.23 },
+        { "product": "Brownie cookies", "amount": 37, "carbon": 0.54 },
+        { "product": "MacBook Pro M5", "amount": 14, "carbon": 0.56 },
+        { "product": "Plants", "amount": 40, "carbon": 0.07 }
+      ]
+    },
+    {
+      "id": "scOwnDJEPMJMpKyfTIMM",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 379,
+      "company": "Lidl",
+      "totalCarbon": 6.34,
+      "averageCarbon": 0.53,
+      "products": [
+        { "product": "MacBook Pro M5", "amount": 27, "carbon": 0.49 },
+        { "product": "Coca Cola", "amount": 41, "carbon": 0.56 },
+        { "product": "Apples", "amount": 26, "carbon": 0.25 },
+        { "product": "Apples", "amount": 27, "carbon": 0.05 },
+        { "product": "Haribo gummies", "amount": 37, "carbon": 0.76 },
+        { "product": "Lime", "amount": 27, "carbon": 0.35 },
         {
           "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 1,
-          "carbon": 0.5
+          "amount": 49,
+          "carbon": 0.8
         },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 31,
-          "carbon": 0.44
-        },
-        { "product": "MacBook Pro M5", "amount": 16, "carbon": 0.53 },
-        { "product": "Redbull", "amount": 4, "carbon": 0.37 },
-        { "product": "MacBook Pro M5", "amount": 37, "carbon": 0.91 }
+        { "product": "Fried chicken", "amount": 19, "carbon": 0.55 },
+        { "product": "Lime", "amount": 14, "carbon": 0.69 },
+        { "product": "Coca Cola", "amount": 16, "carbon": 0.75 },
+        { "product": "Redbull", "amount": 49, "carbon": 0.85 },
+        { "product": "Plants", "amount": 47, "carbon": 0.24 }
       ]
     },
     {
-      "id": "wiTcwQToGkRsFnMuMUqC",
+      "id": "oafMefBlHbQcSVAmtNKk",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 82,
+      "amount": 110,
       "company": "Lidl",
-      "totalCarbon": 0.64,
+      "totalCarbon": 1.77,
+      "averageCarbon": 0.44,
+      "products": [
+        { "product": "Fried chicken", "amount": 0, "carbon": 0.76 },
+        { "product": "Brownie cookies", "amount": 31, "carbon": 0.03 },
+        { "product": "Redbull", "amount": 36, "carbon": 0.18 },
+        { "product": "Olive oil", "amount": 43, "carbon": 0.8 }
+      ]
+    },
+    {
+      "id": "QtHEryxHErVUnMZatxoA",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 528,
+      "company": "Tax-Free",
+      "totalCarbon": 6.65,
+      "averageCarbon": 0.42,
+      "products": [
+        { "product": "Plants", "amount": 15, "carbon": 0.23 },
+        { "product": "Coca Cola", "amount": 13, "carbon": 0.12 },
+        { "product": "Brownie cookies", "amount": 46, "carbon": 0.16 },
+        { "product": "Plants", "amount": 42, "carbon": 0.53 },
+        { "product": "Fried chicken", "amount": 38, "carbon": 0.78 },
+        { "product": "Apples", "amount": 40, "carbon": 0.5 },
+        { "product": "Coca Cola", "amount": 48, "carbon": 0.55 },
+        { "product": "Coca Cola", "amount": 47, "carbon": 0.6 },
+        { "product": "Haribo gummies", "amount": 27, "carbon": 0.02 },
+        { "product": "Haribo gummies", "amount": 32, "carbon": 0.37 },
+        { "product": "Fried chicken", "amount": 28, "carbon": 0.73 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 27,
+          "carbon": 0.34
+        },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 47,
+          "carbon": 0.75
+        },
+        { "product": "Haribo gummies", "amount": 9, "carbon": 0.66 },
+        { "product": "Cap", "amount": 45, "carbon": 0.24 },
+        { "product": "Fried chicken", "amount": 24, "carbon": 0.07 }
+      ]
+    },
+    {
+      "id": "HmPrmFTiLRCgxqAtWTkh",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 400,
+      "company": "Everything and anything shop",
+      "totalCarbon": 5.63,
+      "averageCarbon": 0.35,
+      "products": [
+        { "product": "Olive oil", "amount": 28, "carbon": 0.08 },
+        { "product": "MacBook Pro M5", "amount": 35, "carbon": 0.61 },
+        { "product": "Olive oil", "amount": 20, "carbon": 0.47 },
+        { "product": "Olive oil", "amount": 31, "carbon": 0.01 },
+        { "product": "MacBook Pro M5", "amount": 10, "carbon": 0.71 },
+        { "product": "Cap", "amount": 46, "carbon": 0.2 },
+        { "product": "Olive oil", "amount": 17, "carbon": 0.66 },
+        { "product": "Coca Cola", "amount": 17, "carbon": 0.24 },
+        { "product": "Olive oil", "amount": 8, "carbon": 0.18 },
+        { "product": "Coca Cola", "amount": 17, "carbon": 0.23 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 23,
+          "carbon": 0.08
+        },
+        { "product": "Redbull", "amount": 49, "carbon": 0.49 },
+        { "product": "Haribo gummies", "amount": 24, "carbon": 0.5 },
+        { "product": "Redbull", "amount": 39, "carbon": 0.37 },
+        { "product": "Brownie cookies", "amount": 25, "carbon": 0.11 },
+        { "product": "MacBook Pro M5", "amount": 11, "carbon": 0.69 }
+      ]
+    },
+    {
+      "id": "fnrAzCtsIcAhwcKeKozv",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 92,
+      "company": "Prisma",
+      "totalCarbon": 2.6,
+      "averageCarbon": 0.52,
+      "products": [
+        { "product": "Cap", "amount": 13, "carbon": 0.43 },
+        { "product": "Plants", "amount": 12, "carbon": 0.65 },
+        { "product": "MacBook Pro M5", "amount": 3, "carbon": 0.55 },
+        { "product": "Fried chicken", "amount": 15, "carbon": 0.26 },
+        { "product": "Olive oil", "amount": 49, "carbon": 0.71 }
+      ]
+    },
+    {
+      "id": "uXOUXZwEzaQOJYkJFSYo",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 35,
+      "company": "Chips Man",
+      "totalCarbon": 0.21,
       "averageCarbon": 0.21,
       "products": [
-        { "product": "Redbull", "amount": 27, "carbon": 0.07 },
-        { "product": "Haribo gummies", "amount": 37, "carbon": 0.21 },
-        { "product": "Fried chicken", "amount": 18, "carbon": 0.36 }
-      ]
-    },
-    {
-      "id": "zXLRigPSqLtuXmAOxJTh",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 303,
-      "company": "Tax-Free",
-      "totalCarbon": 8.52,
-      "averageCarbon": 0.61,
-      "products": [
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 44,
-          "carbon": 0.42
-        },
-        { "product": "Lime", "amount": 18, "carbon": 0.61 },
-        { "product": "Haribo gummies", "amount": 8, "carbon": 0.97 },
-        { "product": "Coca Cola", "amount": 22, "carbon": 0.78 },
-        { "product": "Fried chicken", "amount": 32, "carbon": 0.93 },
-        { "product": "Haribo gummies", "amount": 45, "carbon": 0.33 },
-        { "product": "MacBook Pro M5", "amount": 12, "carbon": 0.27 },
-        { "product": "Brownie cookies", "amount": 12, "carbon": 0.11 },
         {
           "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 48,
-          "carbon": 0.73
-        },
-        { "product": "Cap", "amount": 6, "carbon": 0.49 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 5,
-          "carbon": 0.49
-        },
-        { "product": "MacBook Pro M5", "amount": 37, "carbon": 0.97 },
-        { "product": "Lime", "amount": 14, "carbon": 0.67 },
-        { "product": "Cap", "amount": 0, "carbon": 0.75 }
-      ]
-    },
-    {
-      "id": "UOKYCXwfVBvejsUOEukT",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 292,
-      "company": "Farmer's market",
-      "totalCarbon": 3.66,
-      "averageCarbon": 0.41,
-      "products": [
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 46,
-          "carbon": 0.36
-        },
-        { "product": "Haribo gummies", "amount": 37, "carbon": 0.77 },
-        { "product": "Redbull", "amount": 49, "carbon": 0.05 },
-        { "product": "Brownie cookies", "amount": 37, "carbon": 0.37 },
-        { "product": "MacBook Pro M5", "amount": 49, "carbon": 0.32 },
-        { "product": "Lime", "amount": 2, "carbon": 0.4 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 13,
-          "carbon": 0.67
-        },
-        { "product": "MacBook Pro M5", "amount": 13, "carbon": 0.53 },
-        { "product": "Haribo gummies", "amount": 46, "carbon": 0.19 }
-      ]
-    },
-    {
-      "id": "kxFzqsdHNWvtoWJbiNpV",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 441,
-      "company": "Luigi's",
-      "totalCarbon": 6.54,
-      "averageCarbon": 0.41,
-      "products": [
-        { "product": "Fried chicken", "amount": 37, "carbon": 0.07 },
-        { "product": "Coca Cola", "amount": 20, "carbon": 0.22 },
-        { "product": "Olive oil", "amount": 27, "carbon": 0.93 },
-        { "product": "Apples", "amount": 12, "carbon": 0.96 },
-        { "product": "MacBook Pro M5", "amount": 33, "carbon": 0.9 },
-        { "product": "Fried chicken", "amount": 27, "carbon": 0.18 },
-        { "product": "Lime", "amount": 21, "carbon": 0.38 },
-        { "product": "Olive oil", "amount": 45, "carbon": 0.36 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 32,
-          "carbon": 0.11
-        },
-        { "product": "Brownie cookies", "amount": 35, "carbon": 0.13 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 42,
-          "carbon": 0.12
-        },
-        { "product": "MacBook Pro M5", "amount": 13, "carbon": 0.83 },
-        { "product": "Brownie cookies", "amount": 3, "carbon": 0.9 },
-        { "product": "Haribo gummies", "amount": 15, "carbon": 0.07 },
-        { "product": "MacBook Pro M5", "amount": 33, "carbon": 0.32 },
-        { "product": "Apples", "amount": 46, "carbon": 0.06 }
-      ]
-    },
-    {
-      "id": "ZdWlwcRAklRifQuBeVHY",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 363,
-      "company": "Prisma",
-      "totalCarbon": 8.0,
-      "averageCarbon": 0.57,
-      "products": [
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 1,
-          "carbon": 0.43
-        },
-        { "product": "Brownie cookies", "amount": 27, "carbon": 0.47 },
-        { "product": "Fried chicken", "amount": 20, "carbon": 0.38 },
-        { "product": "Plants", "amount": 25, "carbon": 0.61 },
-        { "product": "Plants", "amount": 37, "carbon": 0.04 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 38,
-          "carbon": 0.82
-        },
-        { "product": "Apples", "amount": 48, "carbon": 0.25 },
-        { "product": "Coca Cola", "amount": 24, "carbon": 0.93 },
-        { "product": "Apples", "amount": 2, "carbon": 0.96 },
-        { "product": "Fried chicken", "amount": 7, "carbon": 0.34 },
-        { "product": "Plants", "amount": 41, "carbon": 0.13 },
-        { "product": "Apples", "amount": 5, "carbon": 0.99 },
-        { "product": "Olive oil", "amount": 45, "carbon": 0.75 },
-        { "product": "Redbull", "amount": 43, "carbon": 0.9 }
-      ]
-    },
-    {
-      "id": "gnfuvFqOaykFuMYtRghz",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 293,
-      "company": "Chips Man",
-      "totalCarbon": 5.83,
-      "averageCarbon": 0.39,
-      "products": [
-        { "product": "Plants", "amount": 46, "carbon": 0.29 },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 4,
-          "carbon": 0.65
-        },
-        { "product": "Cap", "amount": 27, "carbon": 0.72 },
-        { "product": "Apples", "amount": 30, "carbon": 0.02 },
-        { "product": "Haribo gummies", "amount": 27, "carbon": 0.04 },
-        { "product": "Apples", "amount": 2, "carbon": 0.12 },
-        { "product": "Fried chicken", "amount": 22, "carbon": 0.22 },
-        { "product": "Redbull", "amount": 40, "carbon": 0.01 },
-        { "product": "Brownie cookies", "amount": 21, "carbon": 0.37 },
-        { "product": "MacBook Pro M5", "amount": 22, "carbon": 0.17 },
-        { "product": "Lime", "amount": 26, "carbon": 0.66 },
-        { "product": "Brownie cookies", "amount": 2, "carbon": 0.62 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 15,
-          "carbon": 0.96
-        },
-        {
-          "product": "Round-trip ticket on Interrail R1",
-          "amount": 5,
-          "carbon": 0.77
-        },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 4,
+          "amount": 35,
           "carbon": 0.21
         }
       ]
     },
     {
-      "id": "dSVxgLFxJjXvmJShOvYL",
+      "id": "WyjaPcXZyOsunCEUUPze",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 70,
-      "company": "Everything and anything shop",
-      "totalCarbon": 1.6,
-      "averageCarbon": 0.53,
+      "amount": 190,
+      "company": "Tax-Free",
+      "totalCarbon": 3.06,
+      "averageCarbon": 0.51,
       "products": [
-        { "product": "Plants", "amount": 27, "carbon": 0.79 },
-        { "product": "MacBook Pro M5", "amount": 19, "carbon": 0.04 },
-        { "product": "Plants", "amount": 24, "carbon": 0.77 }
+        { "product": "Olive oil", "amount": 33, "carbon": 0.65 },
+        { "product": "Olive oil", "amount": 48, "carbon": 0.42 },
+        { "product": "Plants", "amount": 4, "carbon": 0.38 },
+        { "product": "Fried chicken", "amount": 45, "carbon": 0.54 },
+        { "product": "Lime", "amount": 20, "carbon": 0.78 },
+        { "product": "MacBook Pro M5", "amount": 40, "carbon": 0.29 }
       ]
     },
     {
-      "id": "VFshJnACRBbIwjrfDkze",
+      "id": "wVCMLXSpLFYXFAhtmCHy",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 394,
-      "company": "Lidl",
-      "totalCarbon": 7.18,
-      "averageCarbon": 0.42,
+      "amount": 167,
+      "company": "Prisma",
+      "totalCarbon": 2.65,
+      "averageCarbon": 0.29,
       "products": [
-        { "product": "Coca Cola", "amount": 28, "carbon": 0.37 },
-        { "product": "Coca Cola", "amount": 12, "carbon": 0.99 },
-        { "product": "Cap", "amount": 32, "carbon": 0.62 },
+        { "product": "Brownie cookies", "amount": 5, "carbon": 0.33 },
+        { "product": "Coca Cola", "amount": 4, "carbon": 0.48 },
+        { "product": "Apples", "amount": 47, "carbon": 0.47 },
+        { "product": "Lime", "amount": 16, "carbon": 0.1 },
+        { "product": "Fried chicken", "amount": 6, "carbon": 0.12 },
+        { "product": "Brownie cookies", "amount": 37, "carbon": 0.03 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 20,
+          "carbon": 0.51
+        },
+        { "product": "Cap", "amount": 12, "carbon": 0.05 },
+        { "product": "Brownie cookies", "amount": 20, "carbon": 0.56 }
+      ]
+    },
+    {
+      "id": "tMuoKFraTAQxTccOLVaZ",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 212,
+      "company": "Everything and anything shop",
+      "totalCarbon": 5.77,
+      "averageCarbon": 0.58,
+      "products": [
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 16,
+          "carbon": 0.65
+        },
+        { "product": "Lime", "amount": 21, "carbon": 0.54 },
+        { "product": "Fried chicken", "amount": 12, "carbon": 0.7 },
+        { "product": "Apples", "amount": 9, "carbon": 0.64 },
+        { "product": "Redbull", "amount": 32, "carbon": 0.48 },
+        { "product": "Lime", "amount": 14, "carbon": 0.77 },
         {
           "product": "Round-trip ticket on Interrail R1",
-          "amount": 1,
-          "carbon": 0.43
+          "amount": 33,
+          "carbon": 0.63
         },
-        { "product": "Brownie cookies", "amount": 16, "carbon": 0.68 },
+        { "product": "MacBook Pro M5", "amount": 28, "carbon": 0.03 },
         {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 6,
-          "carbon": 0.09
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 33,
+          "carbon": 0.72
         },
-        { "product": "Cap", "amount": 29, "carbon": 0.47 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 19,
-          "carbon": 0.68
-        },
-        { "product": "Coca Cola", "amount": 14, "carbon": 0.68 },
-        { "product": "Coca Cola", "amount": 44, "carbon": 0.26 },
-        { "product": "Haribo gummies", "amount": 49, "carbon": 0.18 },
-        { "product": "Lime", "amount": 38, "carbon": 0.13 },
-        { "product": "Brownie cookies", "amount": 37, "carbon": 0.69 },
-        { "product": "Lime", "amount": 26, "carbon": 0.09 },
-        {
-          "product": "Flight from Helsinki to Gran Canaria",
-          "amount": 0,
-          "carbon": 0.11
-        },
-        { "product": "Cap", "amount": 18, "carbon": 0.51 },
-        { "product": "Brownie cookies", "amount": 25, "carbon": 0.2 }
+        { "product": "Fried chicken", "amount": 14, "carbon": 0.61 }
       ]
     },
     {
-      "id": "ohsZrddfzCtKzVvUiOZq",
+      "id": "MqmuWXjRSrBqGjdPtIwf",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 368,
-      "company": "Tax-Free",
-      "totalCarbon": 8.06,
-      "averageCarbon": 0.5,
+      "amount": 21,
+      "company": "Lidl",
+      "totalCarbon": 0.18,
+      "averageCarbon": 0.09,
       "products": [
-        { "product": "MacBook Pro M5", "amount": 10, "carbon": 0.56 },
-        { "product": "Fried chicken", "amount": 2, "carbon": 0.47 },
-        { "product": "Cap", "amount": 5, "carbon": 0.42 },
-        { "product": "Haribo gummies", "amount": 22, "carbon": 0.3 },
-        { "product": "MacBook Pro M5", "amount": 4, "carbon": 0.54 },
-        { "product": "Olive oil", "amount": 32, "carbon": 0.58 },
-        { "product": "Olive oil", "amount": 21, "carbon": 0.66 },
-        { "product": "Apples", "amount": 41, "carbon": 0.77 },
-        { "product": "MacBook Pro M5", "amount": 9, "carbon": 0.2 },
-        { "product": "Apples", "amount": 15, "carbon": 0.44 },
-        { "product": "Lime", "amount": 35, "carbon": 0.81 },
-        { "product": "Cap", "amount": 35, "carbon": 0.22 },
-        { "product": "Apples", "amount": 32, "carbon": 0.19 },
-        { "product": "Cap", "amount": 18, "carbon": 0.78 },
-        { "product": "Coca Cola", "amount": 48, "carbon": 0.45 },
+        { "product": "Cap", "amount": 8, "carbon": 0.15 },
+        { "product": "MacBook Pro M5", "amount": 13, "carbon": 0.03 }
+      ]
+    },
+    {
+      "id": "zecRUDyPiGbPllpLxtSn",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 422,
+      "company": "Lidl",
+      "totalCarbon": 6.48,
+      "averageCarbon": 0.43,
+      "products": [
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 28,
+          "carbon": 0.19
+        },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 11,
+          "carbon": 0.73
+        },
+        { "product": "Plants", "amount": 31, "carbon": 0.22 },
+        { "product": "Haribo gummies", "amount": 33, "carbon": 0.64 },
+        { "product": "Brownie cookies", "amount": 11, "carbon": 0.73 },
+        { "product": "Haribo gummies", "amount": 14, "carbon": 0.03 },
+        { "product": "Olive oil", "amount": 39, "carbon": 0.5 },
+        { "product": "Redbull", "amount": 44, "carbon": 0.29 },
+        { "product": "Lime", "amount": 38, "carbon": 0.35 },
+        { "product": "MacBook Pro M5", "amount": 32, "carbon": 0.53 },
+        { "product": "MacBook Pro M5", "amount": 48, "carbon": 0.15 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 21,
+          "carbon": 0.61
+        },
+        { "product": "MacBook Pro M5", "amount": 25, "carbon": 0.2 },
+        { "product": "Haribo gummies", "amount": 17, "carbon": 0.57 },
+        { "product": "MacBook Pro M5", "amount": 30, "carbon": 0.74 }
+      ]
+    },
+    {
+      "id": "WNZEGnoJGxvngAtqMqxf",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 87,
+      "company": "Chips Man",
+      "totalCarbon": 0.96,
+      "averageCarbon": 0.19,
+      "products": [
+        { "product": "Brownie cookies", "amount": 4, "carbon": 0.27 },
+        { "product": "Haribo gummies", "amount": 41, "carbon": 0.21 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 13,
+          "carbon": 0.06
+        },
+        { "product": "Lime", "amount": 27, "carbon": 0.41 },
+        { "product": "Brownie cookies", "amount": 2, "carbon": 0.01 }
+      ]
+    },
+    {
+      "id": "EhvhdTiewmxpgOcQDppL",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 142,
+      "company": "Everything and anything shop",
+      "totalCarbon": 2.88,
+      "averageCarbon": 0.48,
+      "products": [
+        { "product": "MacBook Pro M5", "amount": 34, "carbon": 0.21 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 3,
+          "carbon": 0.49
+        },
+        { "product": "Lime", "amount": 2, "carbon": 0.46 },
+        { "product": "Brownie cookies", "amount": 28, "carbon": 0.49 },
+        { "product": "MacBook Pro M5", "amount": 37, "carbon": 0.72 },
+        { "product": "Cap", "amount": 38, "carbon": 0.51 }
+      ]
+    },
+    {
+      "id": "VojQztjLweVefxnerhLI",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 115,
+      "company": "Everything and anything shop",
+      "totalCarbon": 2.49,
+      "averageCarbon": 0.42,
+      "products": [
+        { "product": "Cap", "amount": 16, "carbon": 0.31 },
+        { "product": "Apples", "amount": 1, "carbon": 0.39 },
+        { "product": "Plants", "amount": 15, "carbon": 0.32 },
+        { "product": "Cap", "amount": 29, "carbon": 0.07 },
+        { "product": "Lime", "amount": 5, "carbon": 0.71 },
+        { "product": "Plants", "amount": 49, "carbon": 0.69 }
+      ]
+    },
+    {
+      "id": "WJrHrUmiGqeTIqpLoGlh",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 326,
+      "company": "Luigi's",
+      "totalCarbon": 4.09,
+      "averageCarbon": 0.34,
+      "products": [
+        { "product": "Haribo gummies", "amount": 31, "carbon": 0.08 },
+        { "product": "Redbull", "amount": 21, "carbon": 0.04 },
+        { "product": "Plants", "amount": 29, "carbon": 0.61 },
+        { "product": "Redbull", "amount": 34, "carbon": 0.59 },
+        { "product": "Redbull", "amount": 44, "carbon": 0.55 },
+        { "product": "Plants", "amount": 20, "carbon": 0.55 },
+        { "product": "Olive oil", "amount": 26, "carbon": 0.21 },
+        { "product": "Lime", "amount": 17, "carbon": 0.32 },
+        { "product": "Haribo gummies", "amount": 22, "carbon": 0.38 },
+        { "product": "Fried chicken", "amount": 17, "carbon": 0.29 },
+        { "product": "Cap", "amount": 22, "carbon": 0.28 },
+        { "product": "Haribo gummies", "amount": 43, "carbon": 0.19 }
+      ]
+    },
+    {
+      "id": "gpXpiOFgCIgJILXLqion",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 44,
+      "company": "Chips Man",
+      "totalCarbon": 0.4,
+      "averageCarbon": 0.4,
+      "products": [{ "product": "Apples", "amount": 44, "carbon": 0.4 }]
+    },
+    {
+      "id": "nFJzoVKiZoEojWtBRqVv",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 179,
+      "company": "Lidl",
+      "totalCarbon": 2.84,
+      "averageCarbon": 0.41,
+      "products": [
+        { "product": "Lime", "amount": 39, "carbon": 0.59 },
+        { "product": "Haribo gummies", "amount": 39, "carbon": 0.53 },
+        { "product": "Haribo gummies", "amount": 26, "carbon": 0.62 },
+        { "product": "Cap", "amount": 16, "carbon": 0.22 },
+        { "product": "Cap", "amount": 31, "carbon": 0.27 },
+        { "product": "Plants", "amount": 2, "carbon": 0.11 },
+        { "product": "Cap", "amount": 26, "carbon": 0.5 }
+      ]
+    },
+    {
+      "id": "gEJJYBOuaPAvCJpEPWNB",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 213,
+      "company": "Everything and anything shop",
+      "totalCarbon": 3.52,
+      "averageCarbon": 0.39,
+      "products": [
+        { "product": "Brownie cookies", "amount": 0, "carbon": 0.2 },
+        { "product": "Plants", "amount": 30, "carbon": 0.61 },
+        { "product": "Lime", "amount": 11, "carbon": 0.19 },
+        { "product": "Cap", "amount": 37, "carbon": 0.53 },
+        { "product": "Cap", "amount": 43, "carbon": 0.46 },
+        { "product": "Lime", "amount": 12, "carbon": 0.16 },
+        { "product": "Cap", "amount": 30, "carbon": 0.25 },
+        { "product": "Fried chicken", "amount": 28, "carbon": 0.58 },
+        { "product": "Cap", "amount": 22, "carbon": 0.54 }
+      ]
+    },
+    {
+      "id": "UGaeuqozKOodCUNDDAJd",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 405,
+      "company": "Farmer's market",
+      "totalCarbon": 6.39,
+      "averageCarbon": 0.34,
+      "products": [
+        { "product": "Redbull", "amount": 12, "carbon": 0.14 },
+        { "product": "Lime", "amount": 36, "carbon": 0.38 },
+        { "product": "Plants", "amount": 45, "carbon": 0.16 },
+        { "product": "Coca Cola", "amount": 0, "carbon": 0.58 },
+        { "product": "Brownie cookies", "amount": 3, "carbon": 0.19 },
+        { "product": "Haribo gummies", "amount": 5, "carbon": 0.13 },
+        { "product": "Redbull", "amount": 30, "carbon": 0.09 },
+        { "product": "Cap", "amount": 8, "carbon": 0.52 },
+        { "product": "Coca Cola", "amount": 3, "carbon": 0.16 },
+        { "product": "Apples", "amount": 3, "carbon": 0.66 },
+        { "product": "Apples", "amount": 38, "carbon": 0.17 },
+        { "product": "MacBook Pro M5", "amount": 38, "carbon": 0.65 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 32,
+          "carbon": 0.65
+        },
+        { "product": "Apples", "amount": 31, "carbon": 0.65 },
+        { "product": "Coca Cola", "amount": 5, "carbon": 0.2 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 36,
+          "carbon": 0.57
+        },
+        { "product": "Fried chicken", "amount": 27, "carbon": 0.3 },
+        { "product": "MacBook Pro M5", "amount": 17, "carbon": 0.14 },
+        { "product": "Olive oil", "amount": 36, "carbon": 0.05 }
+      ]
+    },
+    {
+      "id": "aWAxdXRDuMRCbogTMdqW",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 112,
+      "company": "Farmer's market",
+      "totalCarbon": 1.22,
+      "averageCarbon": 0.31,
+      "products": [
+        { "product": "Brownie cookies", "amount": 28, "carbon": 0.4 },
+        { "product": "Coca Cola", "amount": 42, "carbon": 0.52 },
+        { "product": "Apples", "amount": 37, "carbon": 0.26 },
+        { "product": "Redbull", "amount": 5, "carbon": 0.04 }
+      ]
+    },
+    {
+      "id": "aHuDGncjBcYjGshGJNrY",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 405,
+      "company": "Tax-Free",
+      "totalCarbon": 4.33,
+      "averageCarbon": 0.31,
+      "products": [
+        { "product": "Redbull", "amount": 36, "carbon": 0.5 },
+        { "product": "Brownie cookies", "amount": 13, "carbon": 0.15 },
+        { "product": "Apples", "amount": 7, "carbon": 0.58 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 35,
+          "carbon": 0.35
+        },
+        { "product": "Haribo gummies", "amount": 5, "carbon": 0.21 },
+        { "product": "Redbull", "amount": 28, "carbon": 0.42 },
         {
           "product": "Round-trip ticket on Interrail R1",
           "amount": 39,
-          "carbon": 0.67
+          "carbon": 0.06
+        },
+        { "product": "Coca Cola", "amount": 49, "carbon": 0.04 },
+        { "product": "Lime", "amount": 41, "carbon": 0.61 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 45,
+          "carbon": 0.41
+        },
+        { "product": "Fried chicken", "amount": 18, "carbon": 0.1 },
+        { "product": "Redbull", "amount": 31, "carbon": 0.11 },
+        { "product": "Olive oil", "amount": 14, "carbon": 0.37 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 44,
+          "carbon": 0.42
         }
       ]
     },
     {
-      "id": "xsOlVfibixgoxjgULtkU",
+      "id": "RiHrTedSugsthyOfovfy",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 246,
+      "amount": 433,
+      "company": "Lidl",
+      "totalCarbon": 5.74,
+      "averageCarbon": 0.34,
+      "products": [
+        { "product": "Coca Cola", "amount": 26, "carbon": 0.6 },
+        { "product": "Cap", "amount": 38, "carbon": 0.24 },
+        { "product": "Plants", "amount": 46, "carbon": 0.15 },
+        { "product": "Cap", "amount": 30, "carbon": 0.61 },
+        { "product": "Lime", "amount": 15, "carbon": 0.26 },
+        { "product": "MacBook Pro M5", "amount": 46, "carbon": 0.63 },
+        { "product": "Coca Cola", "amount": 13, "carbon": 0.17 },
+        { "product": "Coca Cola", "amount": 7, "carbon": 0.39 },
+        { "product": "Olive oil", "amount": 48, "carbon": 0.19 },
+        { "product": "Coca Cola", "amount": 5, "carbon": 0.47 },
+        { "product": "Lime", "amount": 47, "carbon": 0.17 },
+        { "product": "Olive oil", "amount": 17, "carbon": 0.04 },
+        { "product": "Apples", "amount": 13, "carbon": 0.11 },
+        { "product": "Lime", "amount": 17, "carbon": 0.53 },
+        { "product": "Redbull", "amount": 10, "carbon": 0.5 },
+        { "product": "Apples", "amount": 19, "carbon": 0.18 },
+        { "product": "Plants", "amount": 36, "carbon": 0.5 }
+      ]
+    },
+    {
+      "id": "GNgatuwZiIDrujOfGWEE",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 207,
       "company": "Farmer's market",
+      "totalCarbon": 4.03,
+      "averageCarbon": 0.29,
+      "products": [
+        { "product": "Fried chicken", "amount": 29, "carbon": 0.54 },
+        { "product": "Olive oil", "amount": 8, "carbon": 0.39 },
+        { "product": "Apples", "amount": 28, "carbon": 0.42 },
+        { "product": "Apples", "amount": 23, "carbon": 0.1 },
+        { "product": "Apples", "amount": 11, "carbon": 0.04 },
+        { "product": "Fried chicken", "amount": 2, "carbon": 0.47 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 19,
+          "carbon": 0.38
+        },
+        { "product": "Coca Cola", "amount": 5, "carbon": 0.14 },
+        { "product": "Olive oil", "amount": 19, "carbon": 0.1 },
+        { "product": "Cap", "amount": 33, "carbon": 0.58 },
+        { "product": "Coca Cola", "amount": 11, "carbon": 0.05 },
+        { "product": "Cap", "amount": 16, "carbon": 0.25 },
+        { "product": "Apples", "amount": 3, "carbon": 0.08 },
+        { "product": "Apples", "amount": 0, "carbon": 0.49 }
+      ]
+    },
+    {
+      "id": "apsGKTjtxqamNIAagwSy",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 223,
+      "company": "Tax-Free",
+      "totalCarbon": 2.5,
+      "averageCarbon": 0.36,
+      "products": [
+        { "product": "Fried chicken", "amount": 37, "carbon": 0.35 },
+        { "product": "Redbull", "amount": 10, "carbon": 0.03 },
+        { "product": "Brownie cookies", "amount": 43, "carbon": 0.56 },
+        { "product": "Plants", "amount": 21, "carbon": 0.59 },
+        { "product": "Apples", "amount": 47, "carbon": 0.47 },
+        { "product": "Lime", "amount": 46, "carbon": 0.15 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 19,
+          "carbon": 0.35
+        }
+      ]
+    },
+    {
+      "id": "uNoyuAQxRezkutlVxrnN",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 195,
+      "company": "Everything and anything shop",
+      "totalCarbon": 1.78,
+      "averageCarbon": 0.3,
+      "products": [
+        { "product": "Redbull", "amount": 35, "carbon": 0.46 },
+        { "product": "Lime", "amount": 45, "carbon": 0.13 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 16,
+          "carbon": 0.49
+        },
+        { "product": "Coca Cola", "amount": 41, "carbon": 0.44 },
+        { "product": "Redbull", "amount": 41, "carbon": 0.17 },
+        { "product": "Coca Cola", "amount": 17, "carbon": 0.09 }
+      ]
+    },
+    {
+      "id": "jRgntnsllZNKNPvJIqyP",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 134,
+      "company": "Farmer's market",
+      "totalCarbon": 0.76,
+      "averageCarbon": 0.19,
+      "products": [
+        { "product": "Olive oil", "amount": 46, "carbon": 0.32 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 39,
+          "carbon": 0.02
+        },
+        { "product": "Lime", "amount": 24, "carbon": 0.23 },
+        { "product": "Cap", "amount": 25, "carbon": 0.19 }
+      ]
+    },
+    {
+      "id": "ylihpoCymHKnScBusJqM",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 309,
+      "company": "Lidl",
+      "totalCarbon": 5.35,
+      "averageCarbon": 0.31,
+      "products": [
+        { "product": "Olive oil", "amount": 17, "carbon": 0.48 },
+        { "product": "Cap", "amount": 4, "carbon": 0.44 },
+        { "product": "Haribo gummies", "amount": 9, "carbon": 0.59 },
+        { "product": "Brownie cookies", "amount": 10, "carbon": 0.06 },
+        { "product": "Cap", "amount": 4, "carbon": 0.27 },
+        { "product": "Haribo gummies", "amount": 9, "carbon": 0.44 },
+        { "product": "Lime", "amount": 29, "carbon": 0.13 },
+        { "product": "Lime", "amount": 28, "carbon": 0.49 },
+        { "product": "Plants", "amount": 40, "carbon": 0.57 },
+        { "product": "MacBook Pro M5", "amount": 10, "carbon": 0.25 },
+        { "product": "Brownie cookies", "amount": 9, "carbon": 0.08 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 44,
+          "carbon": 0.06
+        },
+        { "product": "Lime", "amount": 25, "carbon": 0.02 },
+        { "product": "Brownie cookies", "amount": 2, "carbon": 0.19 },
+        { "product": "Lime", "amount": 9, "carbon": 0.48 },
+        { "product": "Olive oil", "amount": 37, "carbon": 0.59 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 23,
+          "carbon": 0.21
+        }
+      ]
+    },
+    {
+      "id": "GcyowvndcfUciPcONDpW",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 69,
+      "company": "Everything and anything shop",
+      "totalCarbon": 1.02,
+      "averageCarbon": 0.34,
+      "products": [
+        { "product": "Cap", "amount": 1, "carbon": 0.06 },
+        { "product": "Cap", "amount": 36, "carbon": 0.5 },
+        { "product": "Cap", "amount": 32, "carbon": 0.46 }
+      ]
+    },
+    {
+      "id": "ehOHzExczwVFrrGkxill",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 227,
+      "company": "Luigi's",
       "totalCarbon": 2.14,
+      "averageCarbon": 0.24,
+      "products": [
+        { "product": "Haribo gummies", "amount": 23, "carbon": 0.26 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 17,
+          "carbon": 0.11
+        },
+        { "product": "Brownie cookies", "amount": 47, "carbon": 0.3 },
+        { "product": "Apples", "amount": 10, "carbon": 0.38 },
+        { "product": "Coca Cola", "amount": 37, "carbon": 0.33 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 20,
+          "carbon": 0.2
+        },
+        { "product": "Haribo gummies", "amount": 16, "carbon": 0.04 },
+        { "product": "Redbull", "amount": 16, "carbon": 0.19 },
+        { "product": "Redbull", "amount": 41, "carbon": 0.33 }
+      ]
+    },
+    {
+      "id": "oTPYMlmsgrnieAhRFRqU",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 266,
+      "company": "Luigi's",
+      "totalCarbon": 3.63,
+      "averageCarbon": 0.33,
+      "products": [
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 47,
+          "carbon": 0.43
+        },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 4,
+          "carbon": 0.36
+        },
+        { "product": "Lime", "amount": 35, "carbon": 0.56 },
+        { "product": "Haribo gummies", "amount": 34, "carbon": 0.16 },
+        { "product": "Fried chicken", "amount": 29, "carbon": 0.48 },
+        { "product": "Plants", "amount": 7, "carbon": 0.25 },
+        { "product": "Fried chicken", "amount": 7, "carbon": 0.4 },
+        { "product": "Apples", "amount": 3, "carbon": 0.38 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 31,
+          "carbon": 0.06
+        },
+        { "product": "Lime", "amount": 45, "carbon": 0.18 },
+        { "product": "Olive oil", "amount": 24, "carbon": 0.37 }
+      ]
+    },
+    {
+      "id": "JRJdZqDklEEnFeULYLxt",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 276,
+      "company": "Tax-Free",
+      "totalCarbon": 3.19,
+      "averageCarbon": 0.32,
+      "products": [
+        { "product": "Apples", "amount": 32, "carbon": 0.32 },
+        { "product": "MacBook Pro M5", "amount": 43, "carbon": 0.41 },
+        { "product": "Plants", "amount": 1, "carbon": 0.11 },
+        { "product": "Lime", "amount": 5, "carbon": 0.3 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 1,
+          "carbon": 0.36
+        },
+        { "product": "MacBook Pro M5", "amount": 23, "carbon": 0.17 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 39,
+          "carbon": 0.37
+        },
+        { "product": "Coca Cola", "amount": 47, "carbon": 0.42 },
+        { "product": "Redbull", "amount": 42, "carbon": 0.5 },
+        { "product": "Coca Cola", "amount": 43, "carbon": 0.23 }
+      ]
+    },
+    {
+      "id": "gMAKFhDgKNMEfSfhPiRb",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 270,
+      "company": "Farmer's market",
+      "totalCarbon": 2.74,
       "averageCarbon": 0.27,
       "products": [
-        { "product": "Fried chicken", "amount": 33, "carbon": 0.01 },
-        { "product": "Lime", "amount": 7, "carbon": 0.25 },
-        { "product": "Plants", "amount": 40, "carbon": 0.3 },
-        { "product": "Coca Cola", "amount": 29, "carbon": 0.73 },
-        { "product": "Haribo gummies", "amount": 44, "carbon": 0.6 },
-        { "product": "Plants", "amount": 38, "carbon": 0.01 },
-        { "product": "Cap", "amount": 30, "carbon": 0.2 },
-        { "product": "Cap", "amount": 25, "carbon": 0.04 }
+        { "product": "Redbull", "amount": 6, "carbon": 0.25 },
+        { "product": "Olive oil", "amount": 28, "carbon": 0.36 },
+        { "product": "Lime", "amount": 47, "carbon": 0.42 },
+        { "product": "Apples", "amount": 21, "carbon": 0.14 },
+        { "product": "Lime", "amount": 26, "carbon": 0.28 },
+        { "product": "Cap", "amount": 31, "carbon": 0.28 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 40,
+          "carbon": 0.19
+        },
+        { "product": "Plants", "amount": 20, "carbon": 0.48 },
+        { "product": "Cap", "amount": 44, "carbon": 0.1 },
+        { "product": "Cap", "amount": 7, "carbon": 0.24 }
       ]
     },
     {
-      "id": "sRHNFCBXooaVjugWlAYs",
+      "id": "DGksrlXiVWLrrpCYItHd",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": 47,
+      "amount": 262,
+      "company": "Tax-Free",
+      "totalCarbon": 4.36,
+      "averageCarbon": 0.29,
+      "products": [
+        { "product": "Fried chicken", "amount": 0, "carbon": 0.41 },
+        { "product": "Brownie cookies", "amount": 13, "carbon": 0.45 },
+        { "product": "Lime", "amount": 45, "carbon": 0.34 },
+        { "product": "MacBook Pro M5", "amount": 22, "carbon": 0.33 },
+        { "product": "Fried chicken", "amount": 23, "carbon": 0.35 },
+        { "product": "Plants", "amount": 6, "carbon": 0.09 },
+        { "product": "Lime", "amount": 13, "carbon": 0.24 },
+        { "product": "Cap", "amount": 13, "carbon": 0.21 },
+        { "product": "Fried chicken", "amount": 10, "carbon": 0.34 },
+        { "product": "Redbull", "amount": 1, "carbon": 0.13 },
+        { "product": "Brownie cookies", "amount": 19, "carbon": 0.16 },
+        { "product": "Lime", "amount": 0, "carbon": 0.22 },
+        { "product": "Fried chicken", "amount": 36, "carbon": 0.52 },
+        { "product": "Haribo gummies", "amount": 38, "carbon": 0.33 },
+        { "product": "Haribo gummies", "amount": 23, "carbon": 0.24 }
+      ]
+    },
+    {
+      "id": "SdtqLXuECSDtFuGklRoI",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 286,
+      "company": "Luigi's",
+      "totalCarbon": 3.83,
+      "averageCarbon": 0.26,
+      "products": [
+        { "product": "Olive oil", "amount": 23, "carbon": 0.35 },
+        { "product": "Brownie cookies", "amount": 2, "carbon": 0.19 },
+        { "product": "Cap", "amount": 6, "carbon": 0.11 },
+        { "product": "Lime", "amount": 8, "carbon": 0.08 },
+        { "product": "Lime", "amount": 39, "carbon": 0.35 },
+        { "product": "Plants", "amount": 34, "carbon": 0.49 },
+        { "product": "Coca Cola", "amount": 41, "carbon": 0.24 },
+        { "product": "Haribo gummies", "amount": 38, "carbon": 0.17 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 17,
+          "carbon": 0.41
+        },
+        { "product": "Lime", "amount": 13, "carbon": 0.12 },
+        { "product": "Apples", "amount": 34, "carbon": 0.26 },
+        { "product": "Fried chicken", "amount": 22, "carbon": 0.31 },
+        { "product": "Coca Cola", "amount": 1, "carbon": 0.12 },
+        { "product": "Cap", "amount": 8, "carbon": 0.3 },
+        { "product": "Brownie cookies", "amount": 0, "carbon": 0.33 }
+      ]
+    },
+    {
+      "id": "KPqWKnGCYpaofmZCXZFN",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 432,
+      "company": "Lidl",
+      "totalCarbon": 4.07,
+      "averageCarbon": 0.25,
+      "products": [
+        { "product": "Olive oil", "amount": 35, "carbon": 0.42 },
+        { "product": "Redbull", "amount": 31, "carbon": 0.28 },
+        { "product": "Lime", "amount": 8, "carbon": 0.5 },
+        { "product": "Haribo gummies", "amount": 7, "carbon": 0.27 },
+        { "product": "Lime", "amount": 9, "carbon": 0.1 },
+        { "product": "Brownie cookies", "amount": 43, "carbon": 0.06 },
+        { "product": "MacBook Pro M5", "amount": 29, "carbon": 0.09 },
+        { "product": "Cap", "amount": 43, "carbon": 0.21 },
+        { "product": "MacBook Pro M5", "amount": 38, "carbon": 0.06 },
+        { "product": "Cap", "amount": 28, "carbon": 0.08 },
+        { "product": "Cap", "amount": 46, "carbon": 0.49 },
+        { "product": "Fried chicken", "amount": 18, "carbon": 0.42 },
+        { "product": "Apples", "amount": 18, "carbon": 0.17 },
+        { "product": "Olive oil", "amount": 33, "carbon": 0.32 },
+        { "product": "MacBook Pro M5", "amount": 42, "carbon": 0.11 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 4,
+          "carbon": 0.49
+        }
+      ]
+    },
+    {
+      "id": "jPUoPbNBbmQfsecIolvM",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 175,
+      "company": "Farmer's market",
+      "totalCarbon": 1.17,
+      "averageCarbon": 0.19,
+      "products": [
+        { "product": "Plants", "amount": 31, "carbon": 0.37 },
+        { "product": "Lime", "amount": 38, "carbon": 0.26 },
+        { "product": "Plants", "amount": 30, "carbon": 0.04 },
+        { "product": "Haribo gummies", "amount": 38, "carbon": 0.09 },
+        { "product": "Brownie cookies", "amount": 31, "carbon": 0.12 },
+        { "product": "Coca Cola", "amount": 7, "carbon": 0.29 }
+      ]
+    },
+    {
+      "id": "bBNhWohOPodeEhtdZaeI",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 357,
+      "company": "Everything and anything shop",
+      "totalCarbon": 3.51,
+      "averageCarbon": 0.23,
+      "products": [
+        { "product": "Redbull", "amount": 2, "carbon": 0.09 },
+        { "product": "Redbull", "amount": 21, "carbon": 0.01 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 1,
+          "carbon": 0.3
+        },
+        { "product": "MacBook Pro M5", "amount": 12, "carbon": 0.16 },
+        { "product": "Brownie cookies", "amount": 32, "carbon": 0.34 },
+        { "product": "Lime", "amount": 20, "carbon": 0.18 },
+        { "product": "Plants", "amount": 45, "carbon": 0.4 },
+        { "product": "Olive oil", "amount": 19, "carbon": 0.3 },
+        { "product": "Haribo gummies", "amount": 11, "carbon": 0.2 },
+        { "product": "Olive oil", "amount": 21, "carbon": 0.18 },
+        { "product": "Coca Cola", "amount": 10, "carbon": 0.43 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 39,
+          "carbon": 0.38
+        },
+        { "product": "Lime", "amount": 43, "carbon": 0.15 },
+        { "product": "Redbull", "amount": 37, "carbon": 0.1 },
+        {
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 44,
+          "carbon": 0.29
+        }
+      ]
+    },
+    {
+      "id": "tKHoMgLccqTsskyCfvnj",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 465,
+      "company": "Lidl",
+      "totalCarbon": 4.19,
+      "averageCarbon": 0.25,
+      "products": [
+        { "product": "Redbull", "amount": 30, "carbon": 0.35 },
+        { "product": "Fried chicken", "amount": 3, "carbon": 0.19 },
+        { "product": "Coca Cola", "amount": 17, "carbon": 0.24 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 43,
+          "carbon": 0.15
+        },
+        { "product": "Lime", "amount": 43, "carbon": 0.44 },
+        { "product": "Cap", "amount": 32, "carbon": 0.25 },
+        { "product": "Redbull", "amount": 11, "carbon": 0.04 },
+        { "product": "Lime", "amount": 39, "carbon": 0.02 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 1,
+          "carbon": 0.38
+        },
+        { "product": "Coca Cola", "amount": 13, "carbon": 0.24 },
+        { "product": "Apples", "amount": 36, "carbon": 0.15 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 39,
+          "carbon": 0.15
+        },
+        { "product": "Coca Cola", "amount": 38, "carbon": 0.47 },
+        { "product": "Plants", "amount": 29, "carbon": 0.26 },
+        { "product": "Plants", "amount": 46, "carbon": 0.19 },
+        {
+          "product": "Flight from Helsinki to Gran Canaria",
+          "amount": 17,
+          "carbon": 0.48
+        },
+        { "product": "Coca Cola", "amount": 28, "carbon": 0.19 }
+      ]
+    },
+    {
+      "id": "NKIIkUxdgVtHuHZMeopE",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 167,
+      "company": "Chips Man",
+      "totalCarbon": 1.27,
+      "averageCarbon": 0.21,
+      "products": [
+        { "product": "Redbull", "amount": 47, "carbon": 0.11 },
+        { "product": "Fried chicken", "amount": 2, "carbon": 0.26 },
+        { "product": "Haribo gummies", "amount": 44, "carbon": 0.31 },
+        { "product": "Coca Cola", "amount": 6, "carbon": 0.13 },
+        { "product": "Lime", "amount": 21, "carbon": 0.33 },
+        { "product": "Haribo gummies", "amount": 47, "carbon": 0.13 }
+      ]
+    },
+    {
+      "id": "EIvFXOEQkvyVdFVHhxiu",
+      "userId": "64dd985a9063ffaaed8893eee5450db5",
+      "amount": 115,
       "company": "Prisma",
-      "totalCarbon": 0.29,
-      "averageCarbon": 0.14,
+      "totalCarbon": 0.9,
+      "averageCarbon": 0.23,
       "products": [
-        { "product": "Cap", "amount": 13, "carbon": 0.24 },
-        { "product": "Plants", "amount": 34, "carbon": 0.05 }
+        { "product": "Lime", "amount": 35, "carbon": 0.27 },
+        { "product": "Apples", "amount": 18, "carbon": 0.34 },
+        { "product": "Brownie cookies", "amount": 26, "carbon": 0.26 },
+        { "product": "Lime", "amount": 36, "carbon": 0.03 }
       ]
     },
     {
-      "id": "edfesdfrasfwes",
+      "id": "ISdZRkXmujJQbOaNjRuf",
       "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": "€3",
-      "company": "Ferry, Jast and Kuhn",
-      "totalCarbon": 2.09,
+      "amount": 31,
+      "company": "Lidl",
+      "totalCarbon": 0.46,
+      "averageCarbon": 0.23,
       "products": [
+        { "product": "Apples", "amount": 15, "carbon": 0.07 },
         {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
-        }
-      ]
-    },
-    {
-      "id": "edfesdfasdsaDrasfwes",
-      "userId": "64dd9DASDSA85a9063ffaaed8893eee5450db5",
-      "amount": "€3",
-      "company": "FerSADASry, Jast and Kuhn",
-      "products": [
-        {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
-        }
-      ]
-    },
-    {
-      "id": "edfesdasdsaDfrasfwes",
-      "userId": "64dd98ASDSAD5a9063ffaaed8893eee5450db5",
-      "amount": "€3",
-      "company": "Ferry, Jast and Kuhn",
-      "products": [
-        {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
-        }
-      ]
-    },
-    {
-      "id": "sadsADFEAWSFASFD",
-      "userId": "64dd985a9063ffaaed8893eee5450db5",
-      "amount": "€54",
-      "company": "Ferry, Jast and Kuhn",
-      "totalCarbon": 2.09,
-      "products": [
-        {
-          "id": 1,
-          "product": "Goulash Seasoning",
-          "carbon": 0.58
-        },
-        {
-          "id": 2,
-          "product": "Eggplant - Baby",
-          "carbon": 0.75
-        },
-        {
-          "id": 3,
-          "product": "Molasses - Fancy",
-          "carbon": 0.34
-        },
-        {
-          "id": 4,
-          "product": "Onions - Green",
-          "carbon": 0.42
+          "product": "Round-trip ticket on Interrail R1",
+          "amount": 16,
+          "carbon": 0.39
         }
       ]
     }
