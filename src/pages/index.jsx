@@ -2,6 +2,8 @@ import Head from "next/head";
 import { Button } from "../components";
 
 export default function Home() {
+  console.log(process.env.DB_HOST);
+
   return (
     <div>
       <Head>
