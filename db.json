@@ -4,6 +4,7 @@
       "id": 1,
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€2",
+      "company": "Bernhard LLC",
       "products": [
         {
           "id": 1,
@@ -31,6 +32,7 @@
       "id": 2,
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€32",
+      "company": "Ferry, Jast and Kuhn",
       "products": [
         {
           "id": 1,
@@ -58,6 +60,7 @@
       "id": 3,
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€3",
+      "company": "Ferry, Jast and Kuhn",
       "products": [
         {
           "id": 1,
@@ -85,6 +88,7 @@
       "id": 4,
       "userId": "64dd985a9063ffaaed8893eee5450db5",
       "amount": "€54",
+      "company": "Ferry, Jast and Kuhn",
       "products": [
         {
           "id": 1,
