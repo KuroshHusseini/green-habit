@@ -1,4 +1,3 @@
-import React from "react";
 import { PurchaseOverviewListItem } from "../";
 import { Swiper, SwiperSlide } from "swiper/react";
 export const Carousel = ({ list, imageSrc }) => {

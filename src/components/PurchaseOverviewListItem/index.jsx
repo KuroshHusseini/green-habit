@@ -1,5 +1,4 @@
-import { Card, Col, Text, Row, Button } from "@nextui-org/react";
-import React from "react";
+import { Card, Col, Text, Row } from "@nextui-org/react";
 
 export const PurchaseOverviewListItem = ({ id, company, amount, imageSrc }) => {
   return (

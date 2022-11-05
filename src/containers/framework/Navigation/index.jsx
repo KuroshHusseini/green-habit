@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar, Button, Link, Text } from "@nextui-org/react";
 
 export const Navigation = () => {

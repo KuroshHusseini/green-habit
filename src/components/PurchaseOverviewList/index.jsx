@@ -1,6 +1,5 @@
-import { Container, Grid, Row, Spacer, Text } from "@nextui-org/react";
-import React from "react";
-import { Carousel, PurchaseOverviewListItem } from "../";
+import { Container, Grid, Spacer, Text } from "@nextui-org/react";
+import { Carousel } from "../";
 
 export const PurchaseOverviewList = ({ title, list }) => {
   console.log(

@@ -1,4 +1,3 @@
-import React from "react";
 import { Card } from "@nextui-org/react";
 import {
   Chart as ChartJS,

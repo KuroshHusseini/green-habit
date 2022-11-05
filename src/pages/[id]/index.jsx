@@ -1,6 +1,5 @@
 import { Container } from "@nextui-org/react";
 import Head from "next/head";
-import React from "react";
 import {
   getPurchases,
   getSinglePurchase,
