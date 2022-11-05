@@ -2,6 +2,15 @@ import React, { useCallback, useState } from "react";
 import { useRouter } from "next/router";
 import { getCustomers } from "../../services/customersServices";
 import useAuthHandler from "../../hooks/useAuthHandler";
+import {
+  Container,
+  Card,
+  Row,
+  Col,
+  Button,
+  Input,
+  Spacer,
+} from "@nextui-org/react";
 
 const SignInPage = ({ customers }) => {
   const router = useRouter();
@@ -47,34 +56,38 @@ const SignInPage = ({ customers }) => {
 
   return (
     <main>
-      <div>
-        <div>
-          <div>
-            <input
-              id="userEmail"
-              placeholder="E-mail"
-              required
-              type="email"
-              value={inputs.email}
-              onChange={(e) => handleEmailChange(e.target.value)}
-            />
-            <label htmlFor="userEmail">E-mail</label>
-          </div>
-          <div>
-            <input
-              id="userPass"
-              placeholder="Password"
-              required
-              minLength={8}
-              type="password"
-              value={inputs.password}
-              onChange={(e) => handlePasswordChange(e.target.value)}
-            />
-            <label htmlFor="userPass">Password</label>
-          </div>
-          <button onClick={handleSubmit}>Login</button>
-        </div>
-      </div>
+      <Container md css={{ height: "100vh" }}>
+      <Row justify="center" align="center" css={{ height: "100%" }}>
+        <Card css={{ mw: "400px" }}>
+          <Card.Body>
+            <Row justify="center" align="center">
+              <Col>
+                <Input
+                  css={{ width: "100%" }}
+                  label="E-mail"
+                  required
+                  type="email"
+                  initialValue={inputs.email}
+                  onChange={(e) => handleEmailChange(e.target.value)}
+                />
+                <Spacer y={0.5} />
+                <Input
+                  css={{ width: "100%" }}
+                  label="Password"
+                  required
+                  minLength={8}
+                  type="password"
+                  initialValue={inputs.password}
+                  onChange={(e) => handlePasswordChange(e.target.value)}
+                />
+                <Spacer y={0.5} />
+                <Button onClick={handleSubmit} css={{ width: "100%" }}>Login</Button>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+        </Row>
+      </Container>
     </main>
   );
 };
